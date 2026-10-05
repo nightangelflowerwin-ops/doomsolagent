@@ -15,7 +15,7 @@ def augment_enemy(image,rng):
     if rng.random()<.5:image=ImageOps.mirror(image)
     image=ImageEnhance.Brightness(image).enhance(rng.uniform(.55,1.35))
     image=ImageEnhance.Contrast(image).enhance(rng.uniform(.75,1.35))
-    # Preserve sprite context while varying framing/occlusion.
+                                                              
     pad_x=round(w*rng.uniform(.02,.35));pad_y=round(h*rng.uniform(.02,.22))
     canvas=Image.new('RGB',(w+2*pad_x,h+2*pad_y),(rng.randrange(8,35),rng.randrange(5,28),rng.randrange(4,25)))
     if image.mode=='RGBA':canvas.paste(image,(pad_x,pad_y),image.getchannel('A'))

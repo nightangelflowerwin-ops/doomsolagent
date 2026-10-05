@@ -6,7 +6,7 @@
 
 `agent.py --mode baseline --seconds 20` runs a crude benchmark controller and records frames/actions. It is deliberately not presented as a learned policy; it gives us a baseline for later improvement.
 
-## Local enemy-recognition pretraining
+## Local enemy recognition pretraining
 
 `extract_wad_enemy_sprites.py` extracts living and attacking enemy rotations
 from a Doom-format WAD while excluding death animations. The checked-in dataset

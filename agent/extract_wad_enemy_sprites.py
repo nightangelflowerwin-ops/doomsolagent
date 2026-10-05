@@ -7,19 +7,19 @@ from pathlib import Path
 from PIL import Image
 
 
-# Frame letters intentionally stop before each monster's death animation so
-# corpses are not taught as active threats.
+                                                                           
+                                           
 ENEMY_FRAMES = {
-    "POSS": set("ABCDEFG"),   # former human
-    "SPOS": set("ABCDEFG"),   # shotgun human
-    "TROO": set("ABCDEFGH"),  # imp
-    "SARG": set("ABCDEFG"),   # demon/spectre
-    "HEAD": set("ABC"),       # cacodemon
-    "BOSS": set("ABCDEFG"),   # baron
-    "BOS2": set("ABCDEFG"),   # hell knight where present
-    "SKUL": set("ABCD"),      # lost soul
-    "CYBR": set("ABCDEFG"),   # cyberdemon
-    "SPID": set("ABCDEFG"),   # spider mastermind
+    "POSS": set("ABCDEFG"),                 
+    "SPOS": set("ABCDEFG"),                  
+    "TROO": set("ABCDEFGH"),       
+    "SARG": set("ABCDEFG"),                  
+    "HEAD": set("ABC"),                  
+    "BOSS": set("ABCDEFG"),          
+    "BOS2": set("ABCDEFG"),                              
+    "SKUL": set("ABCD"),                 
+    "CYBR": set("ABCDEFG"),               
+    "SPID": set("ABCDEFG"),                      
 }
 
 
@@ -51,7 +51,7 @@ def decode_patch(payload, palette):
             if cursor + 2 > len(payload):
                 break
             length = payload[cursor]
-            cursor += 2  # length plus unused byte
+            cursor += 2                           
             if top_delta <= previous_top:
                 top_delta += previous_top
             previous_top = top_delta
@@ -62,7 +62,7 @@ def decode_patch(payload, palette):
                 if 0 <= y < height:
                     colour = palette[payload[cursor + dy]]
                     pixels[x, y] = (*colour, 255)
-            cursor += length + 1  # pixels plus trailing unused byte
+            cursor += length + 1                                    
     if image.getbbox() is None:
         return None
     return image, {"width": width, "height": height, "left_offset": left, "top_offset": top}

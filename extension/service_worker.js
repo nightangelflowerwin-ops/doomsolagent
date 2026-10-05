@@ -12,4 +12,4 @@ else if(c.type==="eval"){let r=await chrome.debugger.sendCommand(q,"Runtime.eval
 async function poll(){if(attachedTabId===null)return;try{for(const c of(await bridge("/commands")).commands||[])c.type==="capture"?await capture(c):await input(c)}catch(e){console.warn(e)}}
 function start(){if(!pollTimer)pollTimer=setInterval(poll,40)}
 chrome.runtime.onMessage.addListener((m,s,reply)=>{(async()=>{try{reply(m.type==="attach"?await attach(m.tabId):m.type==="detach"?await detach():{ok:false,error:"Unknown command"})}catch(e){console.error(e);reply({ok:false,error:e.message||String(e)})}})();return true});
-// Intentionally no chrome.debugger.onDetach listener. Some Brave builds omit this event.
+                                                                                         

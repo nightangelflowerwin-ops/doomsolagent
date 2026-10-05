@@ -46,8 +46,8 @@ class LearnedThreatDetector:
         if not self.available:return
         payload=torch.load(path,map_location='cpu',weights_only=False)
         self.model=ThreatNet.build();self.model.load_state_dict(payload['state_dict']);self.model.eval()
-        # Live promotion prioritizes precision: validation-F1 calibration may
-        # never lower the deployed threshold below the reviewed safe floor.
+                                                                             
+                                                                           
         self.threshold=max(.80,float(threshold or payload.get('threshold',self.threshold)));self.labels=payload.get('labels',self.labels)
 
     def reset(self):
@@ -77,14 +77,14 @@ class LearnedThreatDetector:
         if not self.available:return {'available':False,'target':None,'reason':'checkpoint_missing'}
         torch, _ = _torch();image=Image.open(BytesIO(raw)).convert('RGB');w,h=image.size;view=self.viewport(w,h)
         vw,vh=view[2]-view[0],view[3]-view[1];windows=[];boxes=[]
-        # Classic Doom sprites are tall. Scan three bounded scales with 50% overlap.
+                                                                                    
         for frac in (.18,.30,.46):
             wh=max(48,round(vh*frac));ww=max(32,round(wh*.68));sx=max(20,ww//2);sy=max(24,wh//2)
             for y in range(view[1],max(view[1]+1,view[3]-wh+1),sy):
                 for x in range(view[0],max(view[0]+1,view[2]-ww+1),sx):
                     box=(x,y,min(view[2],x+ww),min(view[3],y+wh))
-                    # Exclude the weapon/HUD band, a dominant source of high
-                    # confidence corpse and pistol false positives.
+                                                                            
+                                                                   
                     if (box[2]-box[0]>=24 and box[3]-box[1]>=36
                             and (box[1]+box[3])/2 <= h*.575):
                         boxes.append(box);windows.append(image.crop(box))
@@ -94,7 +94,7 @@ class LearnedThreatDetector:
         if best<self.threshold:
             self._frame_index+=1;self._tracks=[t for t in self._tracks if self._frame_index-t['last_seen']<=2]
             return {'available':True,'target':None,'best_score':round(best,3),'threshold':round(self.threshold,3)}
-        # Weighted local consensus suppresses isolated wall-texture false positives.
+                                                                                    
         cx=(best_box[0]+best_box[2])/2;cy=(best_box[1]+best_box[3])/2
         neighbors=[float(scores[i]) for i in order[:8] if hypot((boxes[i][0]+boxes[i][2])/2-cx,(boxes[i][1]+boxes[i][3])/2-cy)<max(best_box[2]-best_box[0],best_box[3]-best_box[1])*.65]
         consensus=sum(s>=self.threshold*.88 for s in neighbors)
