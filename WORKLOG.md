@@ -2,6 +2,13 @@
 
 This file is the public record of ongoing work. Each meaningful coding, data, training, or evaluation session should add one short entry with evidence and the next question.
 
+## 2026-10-10 - Unsloth Decision Data Bridge
+
+- Changed: export pre-decision browser observations to Unsloth's choice-model format; keep whole replays in separate partitions; remove exact state overlap; add an optional training entry point with class-coverage gates.
+- Evidence: nine focused tests pass. Four retained local replays yield 233 train and 17 validation decisions, with 11 rejected decisions; all exported rows pass upstream question and gold-label validation.
+- Limitation: the existing data lacks fire demonstrations and validation aim examples. Training is blocked by coverage checks; no model was trained and no gameplay improvement is claimed.
+- Next: record reviewed demonstrations across independent episodes with all three action classes, then train and measure held-out imitation.
+
 ## 2026 08 27   Public verification workflow
 
 - Changed: added a GitHub Actions workflow and a documented end-of-session routine.

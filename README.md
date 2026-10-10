@@ -24,6 +24,7 @@ That workflow connects directly to the work I want to do professionally: careful
 - `closed-loop`: tracks conservative visual candidates and records structured replay events.
 - Browser extension and local bridge for connecting the game tab to the Python agent.
 - Perception tests covering the current candidate-detection layer.
+- Optional [Unsloth decision-training data preparation](docs/unsloth-decisions.md), with replay holdouts and action coverage checks. Model training and gameplay gains remain unverified.
 
 ## Verified experiment snapshot
 
