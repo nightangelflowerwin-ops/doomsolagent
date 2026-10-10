@@ -33,4 +33,24 @@ The entry point follows the current [Unsloth decision notebook](https://colab.re
 
 Four retained local replays produced 233 train rows and 17 validation rows, with 11 rejected decisions. Train contained 126 `none` and 107 `aim`; validation contained 17 `none`. Neither partition contained `fire`. All 250 exported rows passed Unsloth's question/gold schema validation. These counts establish data preparation only. The training gate correctly blocks this dataset.
 
-Next: collect reviewed demonstrations covering all three actions across independent episodes, repeat the audit, then train and compare held-out imitation before considering a bounded shadow-mode evaluation. Visual change after firing does not by itself prove an enemy hit.
+Visual change after firing does not by itself prove an enemy hit.
+
+## Use the Existing Human Archive
+
+The broader archive needs a different task. Keyboard demonstrations contain simultaneous movement, mouse offsets, firing, interaction, map and escape controls. Turning is not necessarily aiming at a candidate. `archive_data.py` therefore preserves these controls for image-to-JSON imitation, using Unsloth's [vision conversation format](https://unsloth.ai/docs/basics/vision-fine-tuning). It does not relabel them as the three controller decisions above.
+
+```powershell
+python agent/archive_data.py path/to/local/archive --output output/archive-vision
+python agent/train_archive_model.py --data output/archive-vision --check-data
+python agent/train_archive_model.py --data output/archive-vision --model path/to/local/vision-model --local-files-only --steps 60
+```
+
+The archive directory contains `models/` and `replays/`. Export scans every model JSONL and raw human input file, records row counts and exclusion reasons in `report.json`, and accepts only human recordings with explicit DoomSol host provenance. It supports the historical `.com` host and `.io`. Missing provenance, other games, simulator teacher manifests and unsupported control schemas are excluded rather than silently mixed into the task. Checkpoint files are learned weights, not demonstrations. The four closed-loop replays remain available through the separate decision exporter.
+
+Historical test frames reserve their 20-second time blocks for validation, even when later model folders copied them into training. Training excludes another 850 ms at holdout boundaries. Without historical test blocks, a deterministic whole-recording holdout is used. Exact duplicate image/control examples are collapsed, and image content shared with validation is removed from training. Source frame paths must remain inside their replay. Cropped gameplay images, labels and source metadata are local ignored artifacts. Only the image and static instructions enter the vision model input; controls appear solely as the assistant response. Outcomes, kills, timestamps, recording IDs and filesystem paths stay out of model inputs.
+
+Raw keyboard batches use a preceding frame within 850 ms; unlocked recordings and event batches spanning more than 850 ms are rejected. Legacy synchronized sequence labels retain their original alignment and temporal fire dilation, so the dataset is approximate behavioral imitation, not proof of causal next-action timing. All recorded controls are retained without active-only filtering. Whole recordings can still be parts of the same episode, and single images omit motion history. The fixed legacy viewport crop should be reviewed when changing capture layout.
+
+The optional vision trainer checks image hashes, holdout group separation and firing/non-firing coverage before loading a chosen model. It evaluates held-out imitation loss before and after training and saves the adapter and processor locally. This is separate from `FastDecisionModel`, requires compatible Unsloth vision dependencies and hardware, and has not been model-trained locally. Neither trainer promotes a model into live gameplay.
+
+The local archive export yielded 3,311 training examples with 702 firing labels and 800 validation examples with 65 firing labels. It removed 486 duplicate image/control examples, 67 examples near holdout boundaries and four training examples sharing validation pixels. Another 7,195 derived rows had missing DoomSol provenance or came from another game. Simulator manifest counts and empty input files are visible in the local inventory. These are prepared demonstration counts, not trained-model results.

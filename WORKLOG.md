@@ -2,6 +2,13 @@
 
 This file is the public record of ongoing work. Each meaningful coding, data, training, or evaluation session should add one short entry with evidence and the next question.
 
+## 2026-10-10 - Broader Human Training Archive
+
+- Changed: inventory archived model datasets and raw human inputs; export verified DoomSol keyboard recordings as cropped image/control conversations for optional Unsloth vision training. Preserve historical evaluation blocks, guard boundaries by 850 ms, remove exact duplicate examples and train/validation image overlap.
+- Evidence: 12 tests pass. The local export contains 3,311 training examples (702 firing) and 800 validation examples (65 firing); 486 duplicate examples, 67 boundary examples and four shared training images were removed.
+- Limitation: 7,195 derived rows have missing DoomSol provenance or belong to another game; simulator manifests are inventoried but excluded. Some captured sessions have no input rows. Main validation shares a recording with training and measures approximate synchronized imitation, not episode generalization. Model training has not run locally.
+- Next: use the optional vision trainer with a compatible local model and compare held-out loss before any shadow gameplay evaluation.
+
 ## 2026-10-10 - Unsloth Decision Data Bridge
 
 - Changed: export pre-decision browser observations to Unsloth's choice-model format; keep whole replays in separate partitions; remove exact state overlap; add an optional training entry point with class-coverage gates.

@@ -69,7 +69,7 @@ Only enable live action during short, bounded tests after reviewing the captured
 
 Meaningful sessions are recorded through small commits, dated build-log entries, and automatic test runs. The exact routine is documented in `CONTRIBUTING.md` so the public history shows evidence of real progress rather than artificial contribution activity.
 
-Large replay frames, trained model binaries, local environments, and temporary output are intentionally excluded from version control.
+Large replay frames, trained model binaries, local environments, and temporary output are intentionally excluded from version control. The [Unsloth guide](docs/unsloth-decisions.md) covers controller decisions and the broader verified human gameplay archive, with local exports and protected evaluation recordings.
 
 ## Safety and privacy
 
