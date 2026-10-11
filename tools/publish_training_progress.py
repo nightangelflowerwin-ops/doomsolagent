@@ -44,7 +44,7 @@ def publish(repo,status,repository):
         verified=api('user/emails')
         associated=any(item['email']==email and item['verified'] for item in verified)
     except urllib.error.HTTPError as error:
-        if error.code!=403:raise
+        if error.code not in (403,404):raise
         # A repository token may lack email access. Verify the exact configured
         # email against an existing commit already associated with this account.
         head=subprocess.check_output(['git','rev-parse','HEAD'],cwd=repo,text=True).strip()
