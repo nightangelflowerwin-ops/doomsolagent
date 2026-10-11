@@ -53,3 +53,8 @@ This file is the public record of ongoing work. Each meaningful coding, data, tr
 - Limitation:
 - Next:
 ```
+# 2026-10-10: Complete vision passes and a CPU reference backend
+
+The archive trainer now defaults to a complete epoch, with an explicit debug-only step cap. CPU machines use Transformers/PEFT adapters in both the vision and language linear layers; compatible GPU machines retain the Unsloth backend. Real images and continuous control labels are preserved, and the CPU loss covers only the assistant action response. Checkpoints support resuming training.
+
+Validation: all 12 repository tests pass; the archive's 3,311 training images and 800 held-out images pass content-hash, control-schema and overlap checks. A local Qwen3.5-0.8B vision forward pass, backward pass and saved adapter succeeded. Complete corpus training and gameplay improvement remain unverified. The broader local campaign and embedded-frame training audit remains outside the public repository.
