@@ -1,0 +1,48 @@
+name: Nightangel training verification
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 6 * * *'
+  push:
+    branches: [main]
+    paths: ['training/progress.json']
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install verification dependencies
+        run: |
+          python -m pip install Pillow
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+      - name: Repeat every offline test 1000 times
+        run: python tools/verify_1000.py --output output/githubverification
+      - name: Record training and verification summary
+        run: |
+          python - <<'PY'
+          import json,os,pathlib
+          out=pathlib.Path(os.environ['GITHUB_STEP_SUMMARY'])
+          result=json.loads(pathlib.Path('output/githubverification/1000-test-summary.json').read_text())
+          progress=pathlib.Path('training/progress.json')
+          text=f"Completed {result['completed_runs']} suite runs and {result['test_executions']} test executions.\n\n"
+          if progress.exists():
+              p=json.loads(progress.read_text())
+              text+=f"Latest local training report: {p.get('examples_seen',0)} examples, {p.get('updates',0)} updates, stage {p.get('stage')}.\n\n"
+              text+='Training runs on the owner computer. This workflow verifies code and records the last published progress.\n'
+          out.write_text(text)
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: nightangelverification
+          path: output/githubverification/
+          retention-days: 7

@@ -5,6 +5,11 @@ on:
     branches: [main]
   pull_request:
   workflow_dispatch:
+    inputs:
+      full_verification:
+        description: Repeat every offline test 1000 times
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -22,10 +27,23 @@ jobs:
           python-version: "3.12"
 
       - name: Install test dependencies
-        run: python -m pip install Pillow
+        run: |
+          python -m pip install Pillow
+          python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
 
-      - name: Run focused perception tests
+      - name: Run data, training pipeline, checkpoint, and perception tests
         run: python -m unittest discover -s tests -v
+
+      - name: Repeat the complete suite 1000 times
+        if: github.event_name == 'workflow_dispatch' && inputs.full_verification
+        run: python tools/verify_1000.py --output output/githubverification
+
+      - uses: actions/upload-artifact@v4
+        if: always() && github.event_name == 'workflow_dispatch' && inputs.full_verification
+        with:
+          name: nightangelverification
+          path: output/githubverification/
+          retention-days: 7
 
       - name: Confirm public project records exist
         run: test -s README.md && test -s WORKLOG.md

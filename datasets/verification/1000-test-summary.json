@@ -1,0 +1,8 @@
+{
+  "completed_runs": 1000,
+  "requested_runs": 1000,
+  "test_executions": 24000,
+  "failures": 0,
+  "elapsed_seconds": 989.0112402439117,
+  "scope": "Entire discovered offline suite; not 1000 trained-model gameplay episodes"
+}

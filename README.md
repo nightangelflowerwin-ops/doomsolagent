@@ -24,6 +24,9 @@ That workflow connects directly to the work I want to do professionally: careful
 - `closed-loop`: tracks conservative visual candidates and records structured replay events.
 - Browser extension and local bridge for connecting the game tab to the Python agent.
 - Perception tests covering the current candidate-detection layer.
+- Optional [Unsloth decision-training data preparation](docs/unsloth-decisions.md), with replay holdouts and action coverage checks. Model training and gameplay gains remain unverified.
+- [Reusable training dataset](datasets/README.md): 159,890 verified examples, referenced gameplay images, preserved validation splits, provenance, and a local CPU vision/language adapter trainer. Full training is running; gameplay improvement remains unverified.
+- [Nightangel training progress](training/README.md): meaningful progress recorded under the owner account, with complete repeated verification recorded in GitHub Actions.
 
 ## Verified experiment snapshot
 
@@ -68,7 +71,7 @@ Only enable live action during short, bounded tests after reviewing the captured
 
 Meaningful sessions are recorded through small commits, dated build-log entries, and automatic test runs. The exact routine is documented in `CONTRIBUTING.md` so the public history shows evidence of real progress rather than artificial contribution activity.
 
-Large replay frames, trained model binaries, local environments, and temporary output are intentionally excluded from version control.
+Large replay frames, trained model binaries, local environments, and temporary output are intentionally excluded from version control. The [Unsloth guide](docs/unsloth-decisions.md) covers controller decisions and the broader verified human gameplay archive, with local exports and protected evaluation recordings.
 
 ## Safety and privacy
 
