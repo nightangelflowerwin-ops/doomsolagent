@@ -2,6 +2,15 @@
 
 This file is the public record of ongoing work. Each meaningful coding, data, training, or evaluation session should add one short entry with evidence and the next question.
 
+## 2026-10-10 - Complete reusable corpus and repeated verification
+
+- Changed: publish a portable corpus reader, complete CPU vision/language LoRA trainer, checkpoint publication guard, dataset section, and repeatable 1,000-run verifier. Export every final eligible example and original referenced image with relative paths, source attribution, hashes, and preserved validation splits.
+- Data: 98,560 training and 61,330 validation examples across five explicitly separated tasks. All exported records were parsed and every referenced image decoded and hashed; decoded images do not overlap the two splits.
+- Verification: the expanded 24-test suite is undergoing 1,000 runs against frozen source hashes. A separate 1,000-round check uses the actual local Qwen processor across all five domains. Complete result ledgers will accompany the release.
+- Training: the local Unsloth Qwen3.5-0.8B base is training vision and language adapters through the Transformers/PEFT CPU reference backend. Training consumes a complete corpus pass and complete gameplay-image consolidation pass, with no step cap.
+- Limitation: historical actions include unsuccessful controllers; engine observations are privileged data; HUD grounding is not action prediction. Training and full paired holdout evaluation are unfinished. No gameplay improvement or model promotion is claimed.
+- Next: finish the complete training and holdout evaluation, then compare real engine gameplay against the current controller using fixed seeds and genuine exit evidence.
+
 ## 2026-10-10 - Broader Human Training Archive
 
 - Changed: inventory archived model datasets and raw human inputs; export verified DoomSol keyboard recordings as cropped image/control conversations for optional Unsloth vision training. Preserve historical evaluation blocks, guard boundaries by 850 ms, remove exact duplicate examples and train/validation image overlap.
