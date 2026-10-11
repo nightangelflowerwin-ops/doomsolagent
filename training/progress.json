@@ -1,0 +1,25 @@
+{
+  "stage": "training",
+  "backend": "Transformers/PEFT CPU reference backend; Unsloth published base model",
+  "phase_name": "full_corpus_epoch",
+  "phase": 0,
+  "cursor": 256,
+  "updates": 64,
+  "examples_seen": 256,
+  "domains_seen": {
+    "browser_candidate_observation": 1,
+    "doomsol_gameplay_image": 8,
+    "dwasm_hud_grounding": 24,
+    "engine_observation_and_map_memory": 217,
+    "vizdoom_policy_gameplay_image": 6
+  },
+  "phase_examples": 98560,
+  "loss": 0.2258185250684619,
+  "gradient_norm": 1.9385466575622559,
+  "learning_rate": 0.0001999970965816587,
+  "elapsed_seconds": 5347.1805691719055,
+  "audit_sha256": "b83fe2fe9f306478b2fd27434312a9a7506e17be2bda923592cbf6be9ac6e78a",
+  "updated_at": 1791700536.207142,
+  "recorded_date": "2026-10-11",
+  "claim": "Training progress only; no gameplay improvement established."
+}
