@@ -1,0 +1,7 @@
+{
+  "completed_runs": 1000,
+  "requested_runs": 1000,
+  "native_domain_checks": 5000,
+  "elapsed_seconds": 551.3462302684784,
+  "scope": "Real local Qwen processor, all five domains; no model forward or gameplay claim"
+}

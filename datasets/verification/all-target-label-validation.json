@@ -1,0 +1,32 @@
+{
+  "examples": 159890,
+  "counts": {
+    "train:engine_observation_and_map_memory": 85225,
+    "train:doomsol_gameplay_image": 3311,
+    "train:browser_candidate_observation": 184,
+    "train:vizdoom_policy_gameplay_image": 1629,
+    "train:dwasm_hud_grounding": 8211,
+    "validation:engine_observation_and_map_memory": 58566,
+    "validation:doomsol_gameplay_image": 800,
+    "validation:browser_candidate_observation": 14,
+    "validation:vizdoom_policy_gameplay_image": 1810,
+    "validation:dwasm_hud_grounding": 140
+  },
+  "image_examples": {
+    "train:doomsol_gameplay_image": 3311,
+    "train:vizdoom_policy_gameplay_image": 1629,
+    "train:dwasm_hud_grounding": 8211,
+    "validation:doomsol_gameplay_image": 800,
+    "validation:vizdoom_policy_gameplay_image": 1810,
+    "validation:dwasm_hud_grounding": 140
+  },
+  "ambiguous_input_groups": {
+    "train:engine_observation_and_map_memory": 941,
+    "train:doomsol_gameplay_image": 1461,
+    "train:vizdoom_policy_gameplay_image": 1,
+    "validation:engine_observation_and_map_memory": 52,
+    "validation:doomsol_gameplay_image": 376
+  },
+  "validation": "Every target checked against its domain schema; all original labels retained",
+  "interpretation": "Identical observations can have different recorded controller actions. These labels are demonstrations, not a deterministic optimal policy."
+}

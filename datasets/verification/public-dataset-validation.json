@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "examples": 159890,
+  "counts": {
+    "train:engine_observation_and_map_memory": 85225,
+    "validation:engine_observation_and_map_memory": 58566,
+    "validation:doomsol_gameplay_image": 800,
+    "train:doomsol_gameplay_image": 3311,
+    "validation:browser_candidate_observation": 14,
+    "train:browser_candidate_observation": 184,
+    "validation:vizdoom_policy_gameplay_image": 1810,
+    "train:vizdoom_policy_gameplay_image": 1629,
+    "train:dwasm_hud_grounding": 8211,
+    "validation:dwasm_hud_grounding": 140
+  },
+  "source_audit_sha256": "b83fe2fe9f306478b2fd27434312a9a7506e17be2bda923592cbf6be9ac6e78a",
+  "validation": "All records parsed; all referenced images decoded and hashed; no shared decoded images across splits",
+  "elapsed_seconds": 872.6349375247955,
+  "train_sha256": "d1253e68643539fedcbfa1359e5f15681e0ee756e785cab3f7bb054a906a77f7",
+  "validation_sha256": "4ec19e5f416aea9585cb743dea2a873215d8917c08ebac74bdc535c446be8813"
+}

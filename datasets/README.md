@@ -36,6 +36,10 @@ After training, the trainer evaluates every held-out example with the base model
 
 These are demonstrations and observation labels, not optimal-policy labels. Older controllers include unsuccessful actions. Engine observations contain privileged map information and must not be treated as camera-only inputs. The HUD task reads displayed values; it does not predict next actions. Older teacher records with unsynchronized state and images were excluded rather than assigned invented labels. Duplicate examples were removed. Decoded image content does not overlap training and validation. Human holdout blocks still share recording environments, and independence of all historical campaign seeds is not established.
 
+The complete target audit found 2,831 input groups with more than one recorded target, mainly human control snapshots and historical engine actions. These original labels are retained with provenance. See [label validation](verification/all-target-label-validation.json) for counts by task and split. The release contains 13,968 distinct image files shared by the image examples.
+
+Published verification: [24,000 offline test executions](verification/1000-test-summary.json), [5,000 real processor domain checks](verification/1000-native-encoder-summary.json), and [complete exported-corpus validation](verification/public-dataset-validation.json). Full per-run ledgers and source hashes are release assets. These checks establish the reported offline and data-pipeline results, not gameplay improvement.
+
 The release contains every example in the final eligible corpus. Rejected, corrupted, duplicated, unsynchronized, and unsupported historical records are described in the source audit and are not presented as training examples. Full raw campaign exports are not substituted for the verified corpus.
 
 Offline tests and imitation loss do not establish better gameplay. Promotion requires actual engine gameplay and genuine exit evidence against the current controller.
@@ -44,7 +48,10 @@ Repeat the complete offline suite 1,000 times, preserving seeds, results, and so
 
 ```sh
 python tools/verify_1000.py --output /path/to/fresh/verification-directory
+python tools/verify_native_encoder_1000.py --dataset /path/to/extracted/dataset --model /path/to/Qwen3.5-0.8B --output /path/to/fresh/native-verification-directory
 ```
+
+The separate native encoder check uses the actual downloaded processor and covers all five task domains in each round. It checks image/text preparation and assistant-token masks, without claiming a trained-model forward pass or gameplay evaluation.
 
 ## Attribution and reuse
 
