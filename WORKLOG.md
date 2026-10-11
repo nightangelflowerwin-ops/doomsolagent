@@ -2,6 +2,10 @@
 
 This file is the public record of ongoing work. Each meaningful coding, data, training, or evaluation session should add one short entry with evidence and the next question.
 
+## 2026-10-10 Nightangel contribution reporting
+
+The working branch is named `nightangelflowerwin`. Added GitHub verification runs and a local reporter for meaningful daily training progress and milestones on `main`, attributed to the owner account. Reports exclude machine details and unchanged progress does not produce extra commits. The expanded suite has 26 tests; complete repeated verification is recorded in GitHub Actions. Model training remains local and gameplay validation remains unfinished.
+
 ## 2026-10-10 - Complete reusable corpus and repeated verification
 
 - Changed: publish a portable corpus reader, complete CPU vision/language LoRA trainer, checkpoint publication guard, dataset section, and repeatable 1,000-run verifier. Export every final eligible example and original referenced image with relative paths, source attribution, hashes, and preserved validation splits.

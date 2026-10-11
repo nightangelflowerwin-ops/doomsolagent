@@ -26,6 +26,7 @@ That workflow connects directly to the work I want to do professionally: careful
 - Perception tests covering the current candidate-detection layer.
 - Optional [Unsloth decision-training data preparation](docs/unsloth-decisions.md), with replay holdouts and action coverage checks. Model training and gameplay gains remain unverified.
 - [Reusable training dataset](datasets/README.md): 159,890 verified examples, referenced gameplay images, preserved validation splits, provenance, and a local CPU vision/language adapter trainer. Full training is running; gameplay improvement remains unverified.
+- [Nightangel training progress](training/README.md): meaningful progress recorded under the owner account, with complete repeated verification recorded in GitHub Actions.
 
 ## Verified experiment snapshot
 
