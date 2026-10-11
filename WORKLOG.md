@@ -2,6 +2,10 @@
 
 This file is the public record of ongoing work. Each meaningful coding, data, training, or evaluation session should add one short entry with evidence and the next question.
 
+## 2026-10-11 Training continuity inspection
+
+The owner reported a computer shutdown. The existing local trainer was still active and advanced from 213 updates and 852 examples to 214 updates and 856 examples during inspection. Validated the saved checkpoint at update 200 and cursor 800 against the unchanged corpus audit, optimizer and random state, and vision/language adapter metadata. Kept the advancing process running. Added [recovery instructions](training/recovery.md) describing the saved sequence, replay after interruption and fallback to earlier complete checkpoints before a fresh run. Training and gameplay validation remain unfinished.
+
 ## 2026-10-10 Nightangel contribution reporting
 
 The working branch is named `nightangelflowerwin`. Added GitHub verification runs and a local reporter for meaningful daily training progress and milestones on `main`, attributed to the owner account. Reports exclude machine details and unchanged progress does not produce extra commits. The expanded suite has 26 tests; complete repeated verification is recorded in GitHub Actions. Model training remains local and gameplay validation remains unfinished.

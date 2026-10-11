@@ -13,3 +13,5 @@ python tools/publish_training_progress.py --status /path/to/local/training/statu
 ```
 
 The reporter uses the existing Git credential helper. It never saves or prints the credential. Reports go to `main`, where eligible human authored commits can appear on the contribution graph.
+
+Read [training interruption and recovery](recovery.md) for the October 11 inspection, last recoverable sequence and resume procedure.
