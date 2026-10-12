@@ -1,0 +1,14 @@
+[
+  {
+    "observed_at": "2026-10-12T03:02:06.245840+00:00",
+    "cvat_saved_at": "2026-10-12T02:57:40.949997+00:00",
+    "sha256": "29898210fa9aa1ab71990d57ae355281e53ef41747fff6ab049bd9d36cbb2348",
+    "baseline": true,
+    "added": 162,
+    "removed": 0,
+    "changed": 0,
+    "tracks": 34,
+    "keyframes": 128,
+    "latest_keyframe": 267
+  }
+]
