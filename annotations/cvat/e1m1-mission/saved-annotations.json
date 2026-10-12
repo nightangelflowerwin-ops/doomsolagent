@@ -1,0 +1,1609 @@
+{
+  "format": "CVAT database audit snapshot; not an import archive",
+  "saved_at": "2026-10-12 02:42:28.842518+00:00",
+  "tracks": [
+    {
+      "label": "enemy",
+      "track": {
+        "id": 17,
+        "job": 3,
+        "label": 7,
+        "group": 0,
+        "source": "manual",
+        "frame": 0,
+        "parent": null
+      },
+      "attributes": [],
+      "keyframes": [
+        {
+          "frame": 0,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            260.4327806089259,
+            294.07538108122753,
+            346.6108704887138,
+            362.0234904095214
+          ],
+          "rotation": 0.0,
+          "id": 37,
+          "track": 17,
+          "attributes": []
+        },
+        {
+          "frame": 1,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            260.4326171875,
+            294.0751953125,
+            346.60000000000036,
+            357.10000000000036
+          ],
+          "rotation": 0.0,
+          "id": 38,
+          "track": 17,
+          "attributes": [
+            {
+              "id": 49,
+              "spec": 5,
+              "job": 3,
+              "value": "high",
+              "shape": 38
+            },
+            {
+              "id": 50,
+              "spec": 6,
+              "job": 3,
+              "value": "dead",
+              "shape": 38
+            }
+          ]
+        },
+        {
+          "frame": 17,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            260.4326171875,
+            294.0751953125,
+            346.60000000000036,
+            357.10000000000036
+          ],
+          "rotation": 0.0,
+          "id": 39,
+          "track": 17,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "enemy",
+      "track": {
+        "id": 18,
+        "job": 3,
+        "label": 7,
+        "group": 0,
+        "source": "manual",
+        "frame": 34,
+        "parent": null
+      },
+      "attributes": [],
+      "keyframes": [
+        {
+          "frame": 34,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            60.27810454099017,
+            265.34138701602024,
+            101.797090128528,
+            307.8730307886199
+          ],
+          "rotation": 0.0,
+          "id": 40,
+          "track": 18,
+          "attributes": []
+        },
+        {
+          "frame": 42,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            60.27810454099017,
+            265.34138701602024,
+            101.797090128528,
+            307.8730307886199
+          ],
+          "rotation": 0.0,
+          "id": 41,
+          "track": 18,
+          "attributes": [
+            {
+              "id": 51,
+              "spec": 5,
+              "job": 3,
+              "value": "high",
+              "shape": 41
+            },
+            {
+              "id": 52,
+              "spec": 6,
+              "job": 3,
+              "value": "dead",
+              "shape": 41
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "enemy",
+      "track": {
+        "id": 19,
+        "job": 3,
+        "label": 7,
+        "group": 0,
+        "source": "manual",
+        "frame": 42,
+        "parent": null
+      },
+      "attributes": [],
+      "keyframes": [
+        {
+          "frame": 42,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            184.83506130360183,
+            268.37936157120566,
+            245.59455240731404,
+            289.6451834575055
+          ],
+          "rotation": 0.0,
+          "id": 42,
+          "track": 19,
+          "attributes": [
+            {
+              "id": 57,
+              "spec": 5,
+              "job": 3,
+              "value": "high",
+              "shape": 42
+            },
+            {
+              "id": 58,
+              "spec": 6,
+              "job": 3,
+              "value": "dead",
+              "shape": 42
+            }
+          ]
+        },
+        {
+          "frame": 66,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            184.83506130360183,
+            268.37936157120566,
+            245.59455240731404,
+            289.6451834575055
+          ],
+          "rotation": 0.0,
+          "id": 44,
+          "track": 19,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "enemy",
+      "track": {
+        "id": 20,
+        "job": 3,
+        "label": 7,
+        "group": 0,
+        "source": "manual",
+        "frame": 42,
+        "parent": null
+      },
+      "attributes": [],
+      "keyframes": [
+        {
+          "frame": 42,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            491.6708984375,
+            278.505859375,
+            552.3999999999996,
+            303.82231400154706
+          ],
+          "rotation": 0.0,
+          "id": 43,
+          "track": 20,
+          "attributes": [
+            {
+              "id": 59,
+              "spec": 5,
+              "job": 3,
+              "value": "high",
+              "shape": 43
+            },
+            {
+              "id": 60,
+              "spec": 6,
+              "job": 3,
+              "value": "dead",
+              "shape": 43
+            }
+          ]
+        },
+        {
+          "frame": 66,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            491.6708984375,
+            278.505859375,
+            552.3999999999996,
+            303.82231400154706
+          ],
+          "rotation": 0.0,
+          "id": 45,
+          "track": 20,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "walls",
+      "track": {
+        "id": 21,
+        "job": 3,
+        "label": 12,
+        "group": 0,
+        "source": "manual",
+        "frame": 79,
+        "parent": null
+      },
+      "attributes": [],
+      "keyframes": [
+        {
+          "frame": 79,
+          "type": "polygon",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            344.8349609375,
+            167.11328125,
+            356.98695276412036,
+            253.18948879527852,
+            636.4806118411998,
+            291.6704998276291,
+            636.4806118411998,
+            291.6704998276291
+          ],
+          "rotation": 0.0,
+          "id": 46,
+          "track": 21,
+          "attributes": []
+        },
+        {
+          "frame": 99,
+          "type": "polygon",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            344.8349609375,
+            167.11328125,
+            356.98695276412036,
+            253.18948879527852,
+            636.4806118411998,
+            291.6704998276291,
+            636.4806118411998,
+            291.6704998276291
+          ],
+          "rotation": 0.0,
+          "id": 47,
+          "track": 21,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "walls",
+      "track": {
+        "id": 23,
+        "job": 3,
+        "label": 12,
+        "group": 0,
+        "source": "manual",
+        "frame": 84,
+        "parent": null
+      },
+      "attributes": [],
+      "keyframes": [
+        {
+          "frame": 84,
+          "type": "polygon",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            305.4248046875,
+            153.2646484375,
+            637.2941425289664,
+            47.87996668427695,
+            637.2941425289664,
+            47.87996668427695,
+            638.4958966516115,
+            320.8630377742029
+          ],
+          "rotation": 0.0,
+          "id": 49,
+          "track": 23,
+          "attributes": []
+        },
+        {
+          "frame": 92,
+          "type": "polygon",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            305.4248046875,
+            153.2646484375,
+            637.2941425289664,
+            47.87996668427695,
+            637.2941425289664,
+            47.87996668427695,
+            638.4958966516115,
+            320.8630377742029
+          ],
+          "rotation": 0.0,
+          "id": 50,
+          "track": 23,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "pickup",
+      "track": {
+        "id": 24,
+        "job": 3,
+        "label": 10,
+        "group": 0,
+        "source": "manual",
+        "frame": 93,
+        "parent": null
+      },
+      "attributes": [
+        {
+          "id": 1,
+          "spec": 7,
+          "job": 3,
+          "value": "explosive",
+          "track": 24
+        }
+      ],
+      "keyframes": [
+        {
+          "frame": 93,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            523.3017578125,
+            323.2587890625,
+            558.9177654276937,
+            371.89999999999964
+          ],
+          "rotation": 0.0,
+          "id": 51,
+          "track": 24,
+          "attributes": []
+        },
+        {
+          "frame": 98,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            523.3017578125,
+            323.2587890625,
+            558.9177654276937,
+            371.89999999999964
+          ],
+          "rotation": 0.0,
+          "id": 52,
+          "track": 24,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "pickup",
+      "track": {
+        "id": 25,
+        "job": 3,
+        "label": 10,
+        "group": 0,
+        "source": "manual",
+        "frame": 98,
+        "parent": null
+      },
+      "attributes": [
+        {
+          "id": 2,
+          "spec": 7,
+          "job": 3,
+          "value": "explosive",
+          "track": 25
+        }
+      ],
+      "keyframes": [
+        {
+          "frame": 98,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            447.3213478954367,
+            317.3229200999813,
+            487.68615652598965,
+            367.18533076125095
+          ],
+          "rotation": 0.0,
+          "id": 53,
+          "track": 25,
+          "attributes": []
+        },
+        {
+          "frame": 99,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            447.3213478954367,
+            317.3229200999813,
+            487.68615652598965,
+            367.18533076125095
+          ],
+          "rotation": 0.0,
+          "id": 54,
+          "track": 25,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "pickup",
+      "track": {
+        "id": 26,
+        "job": 3,
+        "label": 10,
+        "group": 0,
+        "source": "manual",
+        "frame": 98,
+        "parent": null
+      },
+      "attributes": [
+        {
+          "id": 3,
+          "spec": 7,
+          "job": 3,
+          "value": "explosive",
+          "track": 26
+        }
+      ],
+      "keyframes": [
+        {
+          "frame": 98,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            615.9037839406847,
+            386.18053482268806,
+            640.0,
+            478.78215462219123
+          ],
+          "rotation": 0.0,
+          "id": 55,
+          "track": 26,
+          "attributes": []
+        },
+        {
+          "frame": 99,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            615.9037839406847,
+            386.18053482268806,
+            640.0,
+            478.78215462219123
+          ],
+          "rotation": 0.0,
+          "id": 56,
+          "track": 26,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "pickup",
+      "track": {
+        "id": 27,
+        "job": 3,
+        "label": 10,
+        "group": 0,
+        "source": "manual",
+        "frame": 99,
+        "parent": null
+      },
+      "attributes": [
+        {
+          "id": 4,
+          "spec": 7,
+          "job": 3,
+          "value": "explosive",
+          "track": 27
+        }
+      ],
+      "keyframes": [
+        {
+          "frame": 99,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            382.0253339342489,
+            312.574119084622,
+            417.6413415494426,
+            369.5597312689315
+          ],
+          "rotation": 0.0,
+          "id": 57,
+          "track": 27,
+          "attributes": []
+        },
+        {
+          "frame": 104,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            382.0253339342489,
+            312.574119084622,
+            417.6413415494426,
+            369.5597312689315
+          ],
+          "rotation": 0.0,
+          "id": 58,
+          "track": 27,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "pickup",
+      "track": {
+        "id": 28,
+        "job": 3,
+        "label": 10,
+        "group": 0,
+        "source": "manual",
+        "frame": 99,
+        "parent": null
+      },
+      "attributes": [
+        {
+          "id": 5,
+          "spec": 7,
+          "job": 3,
+          "value": "explosive",
+          "track": 28
+        }
+      ],
+      "keyframes": [
+        {
+          "frame": 99,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            535.1748046875,
+            379.0576171875,
+            602.8000000000011,
+            476.39999999999964
+          ],
+          "rotation": 0.0,
+          "id": 59,
+          "track": 28,
+          "attributes": []
+        },
+        {
+          "frame": 104,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            535.1748046875,
+            379.0576171875,
+            602.8000000000011,
+            476.39999999999964
+          ],
+          "rotation": 0.0,
+          "id": 60,
+          "track": 28,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "walls",
+      "track": {
+        "id": 22,
+        "job": 3,
+        "label": 12,
+        "group": 0,
+        "source": "manual",
+        "frame": 79,
+        "parent": null
+      },
+      "attributes": [],
+      "keyframes": [
+        {
+          "frame": 79,
+          "type": "polygon",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            346.8603515625,
+            164.0751953125,
+            346.8603515625,
+            164.0751953125,
+            638.5059282113234,
+            64.8350663737674,
+            638.5059282113234,
+            64.8350663737674
+          ],
+          "rotation": 0.0,
+          "id": 48,
+          "track": 22,
+          "attributes": []
+        },
+        {
+          "frame": 106,
+          "type": "polygon",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            346.8603515625,
+            164.0751953125,
+            346.8603515625,
+            164.0751953125,
+            638.5059282113234,
+            64.8350663737674,
+            638.5059282113234,
+            64.8350663737674
+          ],
+          "rotation": 0.0,
+          "id": 62,
+          "track": 22,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "pickup",
+      "track": {
+        "id": 29,
+        "job": 3,
+        "label": 10,
+        "group": 0,
+        "source": "manual",
+        "frame": 104,
+        "parent": null
+      },
+      "attributes": [
+        {
+          "id": 7,
+          "spec": 7,
+          "job": 3,
+          "value": "explosive",
+          "track": 29
+        }
+      ],
+      "keyframes": [
+        {
+          "frame": 104,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            462.7548828125,
+            374.30859375,
+            518.5532947429692,
+            470.4718143110222
+          ],
+          "rotation": 0.0,
+          "id": 61,
+          "track": 29,
+          "attributes": []
+        },
+        {
+          "frame": 106,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            462.7548828125,
+            374.30859375,
+            518.5532947429692,
+            470.4718143110222
+          ],
+          "rotation": 0.0,
+          "id": 63,
+          "track": 29,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "enemy",
+      "track": {
+        "id": 30,
+        "job": 3,
+        "label": 7,
+        "group": 0,
+        "source": "manual",
+        "frame": 117,
+        "parent": null
+      },
+      "attributes": [],
+      "keyframes": [
+        {
+          "frame": 117,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            427.0,
+            276.8583984375,
+            510.48934173583984,
+            340.39999999999964
+          ],
+          "rotation": 0.0,
+          "id": 64,
+          "track": 30,
+          "attributes": [
+            {
+              "id": 65,
+              "spec": 5,
+              "job": 3,
+              "value": "high",
+              "shape": 64
+            },
+            {
+              "id": 66,
+              "spec": 6,
+              "job": 3,
+              "value": "dead",
+              "shape": 64
+            }
+          ]
+        },
+        {
+          "frame": 123,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            445.5,
+            302.0,
+            534.2999954223633,
+            355.0
+          ],
+          "rotation": 0.0,
+          "id": 67,
+          "track": 30,
+          "attributes": []
+        },
+        {
+          "frame": 127,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            470.6640625,
+            317.892578125,
+            559.4640579223633,
+            370.892578125
+          ],
+          "rotation": 0.0,
+          "id": 68,
+          "track": 30,
+          "attributes": []
+        },
+        {
+          "frame": 130,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            498.5,
+            321.8662109375,
+            611.0999984741211,
+            390.8000000000011
+          ],
+          "rotation": 0.0,
+          "id": 69,
+          "track": 30,
+          "attributes": []
+        },
+        {
+          "frame": 134,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            498.5,
+            321.8662109375,
+            611.0999984741211,
+            390.8000000000011
+          ],
+          "rotation": 0.0,
+          "id": 70,
+          "track": 30,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "enemy",
+      "track": {
+        "id": 31,
+        "job": 3,
+        "label": 7,
+        "group": 0,
+        "source": "manual",
+        "frame": 117,
+        "parent": null
+      },
+      "attributes": [],
+      "keyframes": [
+        {
+          "frame": 117,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            506.5166015625,
+            248.60000000000036,
+            589.9564077325231,
+            283.08310890197754
+          ],
+          "rotation": 0.0,
+          "id": 65,
+          "track": 31,
+          "attributes": [
+            {
+              "id": 67,
+              "spec": 5,
+              "job": 3,
+              "value": "high",
+              "shape": 65
+            },
+            {
+              "id": 68,
+              "spec": 6,
+              "job": 3,
+              "value": "dead",
+              "shape": 65
+            }
+          ]
+        },
+        {
+          "frame": 123,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            525.1000000000004,
+            249.89999999999964,
+            589.9564056396484,
+            283.0836944580078
+          ],
+          "rotation": 0.0,
+          "id": 71,
+          "track": 31,
+          "attributes": []
+        },
+        {
+          "frame": 127,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            555.5634765625,
+            252.548828125,
+            620.4198822021481,
+            285.7325225830082
+          ],
+          "rotation": 0.0,
+          "id": 72,
+          "track": 31,
+          "attributes": []
+        },
+        {
+          "frame": 134,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            555.5634765625,
+            252.548828125,
+            620.4198822021481,
+            285.7325225830082
+          ],
+          "rotation": 0.0,
+          "id": 73,
+          "track": 31,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "pickup",
+      "track": {
+        "id": 32,
+        "job": 3,
+        "label": 10,
+        "group": 0,
+        "source": "manual",
+        "frame": 119,
+        "parent": null
+      },
+      "attributes": [
+        {
+          "id": 9,
+          "spec": 7,
+          "job": 3,
+          "value": "explosive",
+          "track": 32
+        }
+      ],
+      "keyframes": [
+        {
+          "frame": 119,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            183.3525390625,
+            372.2177734375,
+            235.0,
+            459.60000000000036
+          ],
+          "rotation": 0.0,
+          "id": 66,
+          "track": 32,
+          "attributes": []
+        },
+        {
+          "frame": 123,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            183.3525390625,
+            372.2177734375,
+            235.0,
+            459.60000000000036
+          ],
+          "rotation": 0.0,
+          "id": 74,
+          "track": 32,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "bars",
+      "track": {
+        "id": 33,
+        "job": 3,
+        "label": 13,
+        "group": 0,
+        "source": "manual",
+        "frame": 137,
+        "parent": null
+      },
+      "attributes": [],
+      "keyframes": [
+        {
+          "frame": 137,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            7.20164701640897,
+            18.59184277930217,
+            436.32065017653076,
+            472.8752319272098
+          ],
+          "rotation": 0.0,
+          "id": 75,
+          "track": 33,
+          "attributes": []
+        },
+        {
+          "frame": 141,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            115.7998046875,
+            6.700000000000728,
+            523.7000000000007,
+            480.0
+          ],
+          "rotation": 0.0,
+          "id": 76,
+          "track": 33,
+          "attributes": []
+        },
+        {
+          "frame": 144,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            225.7001953125,
+            6.7001953125,
+            637.6000000000004,
+            480.0
+          ],
+          "rotation": 0.0,
+          "id": 77,
+          "track": 33,
+          "attributes": []
+        },
+        {
+          "frame": 147,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            294.60000000000036,
+            6.7001953125,
+            637.6000061035156,
+            480.0
+          ],
+          "rotation": 0.0,
+          "id": 78,
+          "track": 33,
+          "attributes": []
+        },
+        {
+          "frame": 151,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            374.10000000000036,
+            6.7001953125,
+            637.6005859375,
+            480.0
+          ],
+          "rotation": 0.0,
+          "id": 79,
+          "track": 33,
+          "attributes": []
+        },
+        {
+          "frame": 154,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            450.89999999999964,
+            6.7001953125,
+            637.6011657714844,
+            480.0
+          ],
+          "rotation": 0.0,
+          "id": 80,
+          "track": 33,
+          "attributes": []
+        },
+        {
+          "frame": 158,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            566.1000000000004,
+            6.7001953125,
+            637.6005859375,
+            480.0
+          ],
+          "rotation": 0.0,
+          "id": 81,
+          "track": 33,
+          "attributes": []
+        },
+        {
+          "frame": 165,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            566.1000000000004,
+            6.7001953125,
+            637.6005859375,
+            480.0
+          ],
+          "rotation": 0.0,
+          "id": 82,
+          "track": 33,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "WALL",
+      "track": {
+        "id": 34,
+        "job": 3,
+        "label": 14,
+        "group": 0,
+        "source": "manual",
+        "frame": 161,
+        "parent": null
+      },
+      "attributes": [],
+      "keyframes": [
+        {
+          "frame": 161,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            5.5947265625,
+            0.0,
+            373.1896477399623,
+            307.87298583984375
+          ],
+          "rotation": 0.0,
+          "id": 83,
+          "track": 34,
+          "attributes": []
+        },
+        {
+          "frame": 165,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            1.0,
+            0.0,
+            466.3999938964844,
+            259.60000000000036
+          ],
+          "rotation": 0.0,
+          "id": 84,
+          "track": 34,
+          "attributes": []
+        },
+        {
+          "frame": 168,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            284.0,
+            23.0,
+            578.0,
+            328.60000000000036
+          ],
+          "rotation": 0.0,
+          "id": 85,
+          "track": 34,
+          "attributes": []
+        },
+        {
+          "frame": 171,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            364.5,
+            18.3994140625,
+            640.0,
+            294.10000000000036
+          ],
+          "rotation": 0.0,
+          "id": 86,
+          "track": 34,
+          "attributes": []
+        },
+        {
+          "frame": 175,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            285.1005859375,
+            118.39999999999964,
+            640.0,
+            294.1000061035156
+          ],
+          "rotation": 0.0,
+          "id": 87,
+          "track": 34,
+          "attributes": []
+        },
+        {
+          "frame": 194,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            395.2001953125,
+            100.20000000000073,
+            640.0,
+            284.8000030517578
+          ],
+          "rotation": 0.0,
+          "id": 88,
+          "track": 34,
+          "attributes": []
+        },
+        {
+          "frame": 195,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            480.3000000000011,
+            100.2001953125,
+            640.0,
+            285.8000000000011
+          ],
+          "rotation": 0.0,
+          "id": 89,
+          "track": 34,
+          "attributes": []
+        },
+        {
+          "frame": 199,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            602.8999999999996,
+            72.8994140625,
+            639.9999961853027,
+            315.2000000000007
+          ],
+          "rotation": 0.0,
+          "id": 90,
+          "track": 34,
+          "attributes": []
+        },
+        {
+          "frame": 202,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            602.8999999999996,
+            72.8994140625,
+            639.9999961853027,
+            315.2000000000007
+          ],
+          "rotation": 0.0,
+          "id": 91,
+          "track": 34,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "pickup",
+      "track": {
+        "id": 35,
+        "job": 3,
+        "label": 10,
+        "group": 0,
+        "source": "manual",
+        "frame": 165,
+        "parent": null
+      },
+      "attributes": [
+        {
+          "id": 10,
+          "spec": 7,
+          "job": 3,
+          "value": "ammo",
+          "track": 35
+        }
+      ],
+      "keyframes": [
+        {
+          "frame": 165,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            533.8902299402725,
+            376.3856540322231,
+            594.8671658287058,
+            475.3293613228889
+          ],
+          "rotation": 0.0,
+          "id": 92,
+          "track": 35,
+          "attributes": []
+        },
+        {
+          "frame": 168,
+          "type": "rectangle",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            533.8902299402725,
+            376.3856540322231,
+            594.8671658287058,
+            475.3293613228889
+          ],
+          "rotation": 0.0,
+          "id": 93,
+          "track": 35,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "blood effect",
+      "track": {
+        "id": 36,
+        "job": 3,
+        "label": 8,
+        "group": 0,
+        "source": "manual",
+        "frame": 194,
+        "parent": null
+      },
+      "attributes": [],
+      "keyframes": [
+        {
+          "frame": 194,
+          "type": "points",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            341.74609375,
+            327.0625,
+            448.0755573554652,
+            326.050246055509,
+            447.0628991704034,
+            348.3287261268688,
+            351.87302977458603,
+            350.3540424969942
+          ],
+          "rotation": 0.0,
+          "id": 94,
+          "track": 36,
+          "attributes": []
+        },
+        {
+          "frame": 195,
+          "type": "points",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            341.74609375,
+            327.0625,
+            448.0755573554652,
+            326.050246055509,
+            447.0628991704034,
+            348.3287261268688,
+            351.87302977458603,
+            350.3540424969942
+          ],
+          "rotation": 0.0,
+          "id": 95,
+          "track": 36,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "blood effect",
+      "track": {
+        "id": 37,
+        "job": 3,
+        "label": 8,
+        "group": 0,
+        "source": "manual",
+        "frame": 195,
+        "parent": null
+      },
+      "attributes": [],
+      "keyframes": [
+        {
+          "frame": 195,
+          "type": "points",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            428.8349609375,
+            332.8349609375,
+            459.2147973911451,
+            354.1008777817224,
+            507.8223902741156,
+            359.1641687070314,
+            540.2274521960953,
+            347.0122704862897
+          ],
+          "rotation": 0.0,
+          "id": 96,
+          "track": 37,
+          "attributes": []
+        },
+        {
+          "frame": 199,
+          "type": "points",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            428.8349609375,
+            332.8349609375,
+            459.2147973911451,
+            354.1008777817224,
+            507.8223902741156,
+            359.1641687070314,
+            540.2274521960953,
+            347.0122704862897
+          ],
+          "rotation": 0.0,
+          "id": 97,
+          "track": 37,
+          "attributes": []
+        }
+      ]
+    },
+    {
+      "label": "blood effect",
+      "track": {
+        "id": 38,
+        "job": 3,
+        "label": 8,
+        "group": 0,
+        "source": "manual",
+        "frame": 199,
+        "parent": null
+      },
+      "attributes": [],
+      "keyframes": [
+        {
+          "frame": 199,
+          "type": "points",
+          "occluded": false,
+          "outside": false,
+          "z_order": 0,
+          "points": [
+            529.087890625,
+            363.5185546875,
+            587.822386894004,
+            384.78442078909757,
+            633.3920052217891,
+            372.63252256835403,
+            542.2527685662208,
+            389.8477117144066
+          ],
+          "rotation": 0.0,
+          "id": 98,
+          "track": 38,
+          "attributes": []
+        },
+        {
+          "frame": 202,
+          "type": "points",
+          "occluded": false,
+          "outside": true,
+          "z_order": 0,
+          "points": [
+            529.087890625,
+            363.5185546875,
+            587.822386894004,
+            384.78442078909757,
+            633.3920052217891,
+            372.63252256835403,
+            542.2527685662208,
+            389.8477117144066
+          ],
+          "rotation": 0.0,
+          "id": 99,
+          "track": 38,
+          "attributes": []
+        }
+      ]
+    }
+  ]
+}

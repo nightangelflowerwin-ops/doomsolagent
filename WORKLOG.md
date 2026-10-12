@@ -80,3 +80,4 @@ Validation: all 12 repository tests pass; the archive's 3,311 training images an
 
 Published a draft Doom-only CVAT snapshot: 120 frames, eight enemy tracks, 17 explicit keyframes, and 740 exported records including interpolation. Removed chess frames and public account contact metadata. Verified retained frame bounds, track count, attributes, and keyframes against the local imported task. Quality review remains pending. Selected the archived E1M1 switch-aware-47 recording for the next annotation task; its run report records one map completed, not the full episode.
 Validation: dataset structure and contact-metadata checks passed. The existing test suite ran 23 tests: 22 passed; corpus-training test import was blocked because torch is absent from this Python environment.
+Saved mission annotation checkpoint: 22 tracks, 63 keyframes, latest keyframe 202. Preserved the saved database snapshot for audit; quality review and a portable CVAT export remain pending.
