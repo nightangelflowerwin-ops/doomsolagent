@@ -1,0 +1,56 @@
+{
+  "method": "Blackwing Decision Method",
+  "producer": "MOVINGMAN",
+  "producer_tag": "MOVINGMAN \ud83e\udeb7",
+  "emblem": "Night Angel Lotus",
+  "signature": "MOVINGMAN-LOTUS-BLACKWING-2026",
+  "wad": "freedoom1.wad",
+  "maps_requested": [
+    "E1M1"
+  ],
+  "maps_completed": 1,
+  "results": [
+    {
+      "map": "E1M1",
+      "completed": true,
+      "attempts": [
+        {
+          "method": "Blackwing Decision Method",
+          "producer": "MOVINGMAN",
+          "producer_tag": "MOVINGMAN \ud83e\udeb7",
+          "emblem": "Night Angel Lotus",
+          "signature": "MOVINGMAN-LOTUS-BLACKWING-2026",
+          "map": "E1M1",
+          "attempt": 1,
+          "completed": true,
+          "dead": false,
+          "timed_out": false,
+          "steps": 2363,
+          "kills": 15,
+          "items": 14,
+          "secrets": 0,
+          "actions": {
+            "move forward": 939,
+            "turn right": 717,
+            "turn left": 889,
+            "jump": 21,
+            "use": 71,
+            "move backward": 13,
+            "strafe right": 116,
+            "strafe left": 108,
+            "attack": 170
+          },
+          "wall_seconds": 355.4355113999918
+        }
+      ]
+    }
+  ],
+  "gate_status": "complete",
+  "blocked_at": null,
+  "missions_attempted": [
+    "E1M1"
+  ],
+  "missions_completed": 1,
+  "episode": null,
+  "episode_completed": false
+}

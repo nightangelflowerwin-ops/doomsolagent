@@ -79,3 +79,9 @@ The working branch is named `nightangelflowerwin`. Added GitHub verification run
 The archive trainer now defaults to a complete epoch, with an explicit debug-only step cap. CPU machines use Transformers/PEFT adapters in both the vision and language linear layers; compatible GPU machines retain the Unsloth backend. Real images and continuous control labels are preserved, and the CPU loss covers only the assistant action response. Checkpoints support resuming training.
 
 Validation: all 12 repository tests pass; the archive's 3,311 training images and 800 held-out images pass content-hash, control-schema and overlap checks. A local Qwen3.5-0.8B vision forward pass, backward pass and saved adapter succeeded. Complete corpus training and gameplay improvement remain unverified. The broader local campaign and embedded-frame training audit remains outside the public repository.
+
+## 2026-10-11: CVAT annotation examples
+
+Published a draft Doom-only CVAT snapshot: 120 frames, eight enemy tracks, 17 explicit keyframes, and 740 exported records including interpolation. Removed chess frames and public account contact metadata. Verified retained frame bounds, track count, attributes, and keyframes against the local imported task. Quality review remains pending. Selected the archived E1M1 switch-aware-47 recording for the next annotation task; its run report records one map completed, not the full episode.
+Validation: dataset structure and contact-metadata checks passed. The existing test suite ran 23 tests: 22 passed; corpus-training test import was blocked because torch is absent from this Python environment.
+Saved mission annotation checkpoint: 22 tracks, 63 keyframes, latest keyframe 202. Preserved the saved database snapshot for audit; quality review and a portable CVAT export remain pending.

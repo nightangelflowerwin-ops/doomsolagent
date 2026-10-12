@@ -78,3 +78,7 @@ Large replay frames, trained model binaries, local environments, and temporary o
 ## Safety and privacy
 
 No seed phrase or private key is needed or stored. Secrets, user profiles, local browser data, model binaries, and raw replay captures must not be committed.
+
+## CVAT annotation examples
+
+[Draft annotated gameplay](annotations/cvat/doom-pilot-01/README.md) includes the video, CVAT XML, label schema, provenance, and transfer checks. [E1M1 mission source](annotations/cvat/e1m1-mission/README.md) documents the longer recording selected for the next annotation task. Annotation quality review is pending.

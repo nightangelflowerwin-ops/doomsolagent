@@ -1,0 +1,3050 @@
+<?xml version='1.0' encoding='utf-8'?>
+<annotations>
+  <version>1.1</version>
+  <meta>
+    <task>
+      <id>2</id>
+      <name>Doom enemy tracking - Doom only frames 0-119</name>
+      <size>120</size>
+      <mode>interpolation</mode>
+      <overlap>0</overlap>
+      <bugtracker />
+      <created>2026-10-12 01:39:59.230802+00:00</created>
+      <updated>2026-10-12 01:40:59.747596+00:00</updated>
+      <subset>default</subset>
+      <start_frame>0</start_frame>
+      <stop_frame>119</stop_frame>
+      <frame_filter />
+      <segments>
+        <segment>
+          <id>2</id>
+          <start>0</start>
+          <stop>119</stop>
+          </segment>
+      </segments>
+      <labels>
+        <label>
+          <name>enemy</name>
+          <color>#ff6b6b</color>
+          <type>rectangle</type>
+          <attributes>
+            <attribute>
+              <name>confidence</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>medium</default_value>
+              <values>high
+medium
+low</values>
+            </attribute>
+            <attribute>
+              <name>state</name>
+              <mutable>True</mutable>
+              <input_type>select</input_type>
+              <default_value>uncertain</default_value>
+              <values>alive
+dead
+uncertain</values>
+            </attribute>
+          </attributes>
+        </label>
+        <label>
+          <name>blood effect</name>
+          <color>#a116ff</color>
+          <type>points</type>
+          <attributes>
+          </attributes>
+        </label>
+        <label>
+          <name>player damage</name>
+          <color>#60f1a9</color>
+          <type>ellipse</type>
+          <attributes>
+          </attributes>
+        </label>
+      </labels>
+      <original_size>
+        <width>788</width>
+        <height>592</height>
+      </original_size>
+      <source>doom-only-frames-0-119.mp4</source>
+    </task>
+    <dumped>2026-10-12 01:41:42.362236+00:00</dumped>
+  </meta>
+  <track id="0" label="enemy" source="file">
+    <box frame="0" keyframe="1" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="1" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="2" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="3" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="4" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="5" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="6" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="7" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="8" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="9" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="10" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="11" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="12" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="13" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="14" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="15" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="16" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="17" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="18" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="19" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="20" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="21" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="22" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="23" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="24" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="25" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="26" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="27" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="28" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="29" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="30" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="31" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="32" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="33" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="34" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="35" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="36" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="37" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="38" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="39" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="40" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="41" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="42" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="43" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="44" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="45" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="46" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="47" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="48" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="49" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="50" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="51" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="52" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="53" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="54" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="55" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="56" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="57" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="58" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="59" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="60" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="61" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="62" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="63" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="64" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="65" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="66" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="67" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="68" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="69" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="70" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="71" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="72" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="73" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="74" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="75" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="76" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="77" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="78" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="79" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="80" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="81" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="82" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="83" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="84" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="85" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="86" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="87" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="88" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="89" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="90" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="91" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="92" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="93" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="94" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="95" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="96" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="97" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="98" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="99" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="100" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="101" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="102" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="103" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="104" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="105" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="106" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="107" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="108" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="109" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="110" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="111" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="112" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="113" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="114" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="115" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="116" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="117" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="118" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="119" keyframe="0" outside="0" occluded="0" xtl="184.80" ytl="253.50" xbr="307.20" ybr="439.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+  </track>
+  <track id="1" label="enemy" source="file">
+    <box frame="0" keyframe="1" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="1" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="2" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="3" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="4" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="5" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="6" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="7" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="8" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="9" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="10" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="11" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="12" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="13" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="14" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="15" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="16" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="17" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="18" keyframe="0" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="19" keyframe="1" outside="0" occluded="0" xtl="511.72" ytl="247.00" xbr="626.70" ybr="439.50" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="20" keyframe="0" outside="0" occluded="0" xtl="511.99" ytl="242.15" xbr="627.78" ybr="434.65" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="21" keyframe="0" outside="0" occluded="0" xtl="512.26" ytl="237.30" xbr="628.86" ybr="429.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="22" keyframe="0" outside="0" occluded="0" xtl="512.53" ytl="232.44" xbr="629.93" ybr="424.94" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="23" keyframe="0" outside="0" occluded="0" xtl="512.80" ytl="227.59" xbr="631.01" ybr="420.09" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="24" keyframe="0" outside="0" occluded="0" xtl="513.07" ytl="222.74" xbr="632.09" ybr="415.24" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="25" keyframe="0" outside="0" occluded="0" xtl="513.34" ytl="217.89" xbr="633.17" ybr="410.39" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="26" keyframe="0" outside="0" occluded="0" xtl="513.61" ytl="213.03" xbr="634.25" ybr="405.53" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="27" keyframe="0" outside="0" occluded="0" xtl="513.88" ytl="208.18" xbr="635.33" ybr="400.68" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="28" keyframe="0" outside="0" occluded="0" xtl="514.15" ytl="203.33" xbr="636.40" ybr="395.83" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="29" keyframe="0" outside="0" occluded="0" xtl="514.42" ytl="198.48" xbr="637.48" ybr="390.98" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="30" keyframe="0" outside="0" occluded="0" xtl="514.69" ytl="193.62" xbr="638.56" ybr="386.12" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="31" keyframe="0" outside="0" occluded="0" xtl="514.96" ytl="188.77" xbr="639.64" ybr="381.27" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="32" keyframe="0" outside="0" occluded="0" xtl="515.23" ytl="183.92" xbr="640.72" ybr="376.42" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="33" keyframe="0" outside="0" occluded="0" xtl="515.50" ytl="179.07" xbr="641.79" ybr="371.57" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="34" keyframe="0" outside="0" occluded="0" xtl="515.77" ytl="174.21" xbr="642.87" ybr="366.71" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="35" keyframe="0" outside="0" occluded="0" xtl="516.04" ytl="169.36" xbr="643.95" ybr="361.86" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="36" keyframe="0" outside="0" occluded="0" xtl="516.31" ytl="164.51" xbr="645.03" ybr="357.01" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="37" keyframe="0" outside="0" occluded="0" xtl="516.58" ytl="159.66" xbr="646.11" ybr="352.16" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="38" keyframe="0" outside="0" occluded="0" xtl="516.85" ytl="154.80" xbr="647.19" ybr="347.30" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="39" keyframe="0" outside="0" occluded="0" xtl="517.12" ytl="149.95" xbr="648.26" ybr="342.45" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="40" keyframe="0" outside="0" occluded="0" xtl="517.39" ytl="145.10" xbr="649.34" ybr="337.60" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="41" keyframe="0" outside="0" occluded="0" xtl="517.66" ytl="140.25" xbr="650.42" ybr="332.75" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="42" keyframe="0" outside="0" occluded="0" xtl="517.93" ytl="135.39" xbr="651.50" ybr="327.89" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="43" keyframe="0" outside="0" occluded="0" xtl="518.20" ytl="130.54" xbr="652.58" ybr="323.04" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="44" keyframe="0" outside="0" occluded="0" xtl="518.47" ytl="125.69" xbr="653.65" ybr="318.19" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="45" keyframe="0" outside="0" occluded="0" xtl="518.73" ytl="120.84" xbr="654.73" ybr="313.34" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="46" keyframe="0" outside="0" occluded="0" xtl="519.00" ytl="115.99" xbr="655.81" ybr="308.49" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="47" keyframe="0" outside="0" occluded="0" xtl="519.27" ytl="111.13" xbr="656.89" ybr="303.63" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="48" keyframe="0" outside="0" occluded="0" xtl="519.54" ytl="106.28" xbr="657.97" ybr="298.78" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="49" keyframe="0" outside="0" occluded="0" xtl="519.81" ytl="101.43" xbr="659.05" ybr="293.93" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="50" keyframe="0" outside="0" occluded="0" xtl="520.08" ytl="96.58" xbr="660.12" ybr="289.08" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="51" keyframe="0" outside="0" occluded="0" xtl="520.35" ytl="91.72" xbr="661.20" ybr="284.22" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="52" keyframe="0" outside="0" occluded="0" xtl="520.62" ytl="86.87" xbr="662.28" ybr="279.37" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="53" keyframe="0" outside="0" occluded="0" xtl="520.89" ytl="82.02" xbr="663.36" ybr="274.52" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="54" keyframe="0" outside="0" occluded="0" xtl="521.16" ytl="77.17" xbr="664.44" ybr="269.67" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="55" keyframe="0" outside="0" occluded="0" xtl="521.43" ytl="72.31" xbr="665.52" ybr="264.81" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="56" keyframe="0" outside="0" occluded="0" xtl="521.70" ytl="67.46" xbr="666.59" ybr="259.96" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="57" keyframe="0" outside="0" occluded="0" xtl="521.97" ytl="62.61" xbr="667.67" ybr="255.11" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="58" keyframe="0" outside="0" occluded="0" xtl="522.24" ytl="57.76" xbr="668.75" ybr="250.26" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="59" keyframe="0" outside="0" occluded="0" xtl="522.51" ytl="52.90" xbr="669.83" ybr="245.40" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="60" keyframe="0" outside="0" occluded="0" xtl="522.78" ytl="48.05" xbr="670.91" ybr="240.55" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="61" keyframe="0" outside="0" occluded="0" xtl="523.05" ytl="43.20" xbr="671.98" ybr="235.70" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="62" keyframe="0" outside="0" occluded="0" xtl="523.32" ytl="38.35" xbr="673.06" ybr="230.85" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="63" keyframe="0" outside="0" occluded="0" xtl="523.59" ytl="33.49" xbr="674.14" ybr="225.99" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="64" keyframe="0" outside="0" occluded="0" xtl="523.86" ytl="28.64" xbr="675.22" ybr="221.14" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="65" keyframe="0" outside="0" occluded="0" xtl="524.13" ytl="23.79" xbr="676.30" ybr="216.29" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="66" keyframe="0" outside="0" occluded="0" xtl="524.40" ytl="18.94" xbr="677.38" ybr="211.44" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="67" keyframe="0" outside="0" occluded="0" xtl="524.67" ytl="14.08" xbr="678.45" ybr="206.58" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="68" keyframe="0" outside="0" occluded="0" xtl="524.94" ytl="9.23" xbr="679.53" ybr="201.73" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="69" keyframe="1" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="70" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="71" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="72" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="73" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="74" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="75" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="76" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="77" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="78" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="79" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="80" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="81" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="82" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="83" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="84" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="85" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="86" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="87" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="88" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="89" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="90" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="91" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="92" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="93" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="94" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="95" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="96" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="97" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="98" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="99" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="100" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="101" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="102" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="103" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="104" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="105" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="106" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="107" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="108" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="109" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="110" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="111" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="112" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="113" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="114" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="115" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="116" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="117" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="118" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="119" keyframe="0" outside="0" occluded="0" xtl="525.21" ytl="4.38" xbr="680.61" ybr="196.88" z_order="0">
+      <attribute name="state">dead</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+  </track>
+  <track id="2" label="enemy" source="file">
+    <box frame="11" keyframe="1" outside="0" occluded="0" xtl="112.30" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="12" keyframe="0" outside="0" occluded="0" xtl="115.25" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="13" keyframe="0" outside="0" occluded="0" xtl="118.20" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="14" keyframe="0" outside="0" occluded="0" xtl="121.15" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="15" keyframe="0" outside="0" occluded="0" xtl="124.10" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="16" keyframe="0" outside="0" occluded="0" xtl="127.05" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="17" keyframe="0" outside="0" occluded="0" xtl="130.00" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="18" keyframe="0" outside="0" occluded="0" xtl="132.95" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="19" keyframe="1" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="20" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="21" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="22" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="23" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="24" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="25" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="26" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="27" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="28" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="29" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="30" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="31" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="32" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="33" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="34" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="35" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="36" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="37" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="38" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="39" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="40" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="41" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="42" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="43" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="44" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="45" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="46" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="47" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="48" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="49" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="50" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="51" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="52" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="53" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="54" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="55" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="56" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="57" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="58" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="59" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="60" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="61" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="62" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="63" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="64" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="65" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="66" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="67" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="68" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="69" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="70" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="71" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="72" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="73" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="74" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="75" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="76" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="77" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="78" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="79" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="80" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="81" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="82" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="83" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="84" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="85" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="86" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="87" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="88" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="89" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="90" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="91" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="92" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="93" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="94" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="95" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="96" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="97" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="98" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="99" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="100" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="101" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="102" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="103" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="104" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="105" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="106" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="107" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="108" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="109" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="110" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="111" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="112" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="113" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="114" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="115" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="116" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="117" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="118" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="119" keyframe="0" outside="0" occluded="0" xtl="135.90" ytl="247.32" xbr="187.24" ybr="449.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+  </track>
+  <track id="3" label="enemy" source="file">
+    <box frame="11" keyframe="1" outside="0" occluded="0" xtl="424.50" ytl="246.82" xbr="503.23" ybr="440.40" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="12" keyframe="0" outside="0" occluded="0" xtl="425.43" ytl="242.56" xbr="504.16" ybr="433.66" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="13" keyframe="0" outside="0" occluded="0" xtl="426.36" ytl="238.31" xbr="505.09" ybr="426.92" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="14" keyframe="0" outside="0" occluded="0" xtl="427.29" ytl="234.05" xbr="506.02" ybr="420.18" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="15" keyframe="0" outside="0" occluded="0" xtl="428.22" ytl="229.80" xbr="506.95" ybr="413.44" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="16" keyframe="0" outside="0" occluded="0" xtl="429.15" ytl="225.54" xbr="507.88" ybr="406.70" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="17" keyframe="0" outside="0" occluded="0" xtl="430.08" ytl="221.29" xbr="508.81" ybr="399.96" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="18" keyframe="0" outside="0" occluded="0" xtl="431.01" ytl="217.03" xbr="509.74" ybr="393.22" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="19" keyframe="0" outside="0" occluded="0" xtl="431.94" ytl="212.78" xbr="510.67" ybr="386.49" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="20" keyframe="0" outside="0" occluded="0" xtl="432.87" ytl="208.52" xbr="511.60" ybr="379.75" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="21" keyframe="0" outside="0" occluded="0" xtl="433.79" ytl="204.26" xbr="512.52" ybr="373.01" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="22" keyframe="0" outside="0" occluded="0" xtl="434.72" ytl="200.01" xbr="513.45" ybr="366.27" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="23" keyframe="0" outside="0" occluded="0" xtl="435.65" ytl="195.75" xbr="514.38" ybr="359.53" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="24" keyframe="0" outside="0" occluded="0" xtl="436.58" ytl="191.50" xbr="515.31" ybr="352.79" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="25" keyframe="0" outside="0" occluded="0" xtl="437.51" ytl="187.24" xbr="516.24" ybr="346.05" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="26" keyframe="0" outside="0" occluded="0" xtl="438.44" ytl="182.99" xbr="517.17" ybr="339.31" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="27" keyframe="0" outside="0" occluded="0" xtl="439.37" ytl="178.73" xbr="518.10" ybr="332.57" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="28" keyframe="0" outside="0" occluded="0" xtl="440.30" ytl="174.48" xbr="519.03" ybr="325.83" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="29" keyframe="0" outside="0" occluded="0" xtl="441.23" ytl="170.22" xbr="519.96" ybr="319.09" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="30" keyframe="0" outside="0" occluded="0" xtl="442.16" ytl="165.97" xbr="520.89" ybr="312.35" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="31" keyframe="0" outside="0" occluded="0" xtl="443.09" ytl="161.71" xbr="521.82" ybr="305.61" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="32" keyframe="0" outside="0" occluded="0" xtl="444.02" ytl="157.45" xbr="522.75" ybr="298.87" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="33" keyframe="0" outside="0" occluded="0" xtl="444.95" ytl="153.20" xbr="523.68" ybr="292.14" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="34" keyframe="0" outside="0" occluded="0" xtl="445.88" ytl="148.94" xbr="524.61" ybr="285.40" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="35" keyframe="0" outside="0" occluded="0" xtl="446.81" ytl="144.69" xbr="525.54" ybr="278.66" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="36" keyframe="0" outside="0" occluded="0" xtl="447.74" ytl="140.43" xbr="526.47" ybr="271.92" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="37" keyframe="0" outside="0" occluded="0" xtl="448.67" ytl="136.18" xbr="527.40" ybr="265.18" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="38" keyframe="0" outside="0" occluded="0" xtl="449.60" ytl="131.92" xbr="528.33" ybr="258.44" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="39" keyframe="0" outside="0" occluded="0" xtl="450.53" ytl="127.67" xbr="529.26" ybr="251.70" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="40" keyframe="0" outside="0" occluded="0" xtl="451.46" ytl="123.41" xbr="530.18" ybr="244.96" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="41" keyframe="0" outside="0" occluded="0" xtl="452.38" ytl="119.15" xbr="531.11" ybr="238.22" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="42" keyframe="0" outside="0" occluded="0" xtl="453.31" ytl="114.90" xbr="532.04" ybr="231.48" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="43" keyframe="0" outside="0" occluded="0" xtl="454.24" ytl="110.64" xbr="532.97" ybr="224.74" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="44" keyframe="0" outside="0" occluded="0" xtl="455.17" ytl="106.39" xbr="533.90" ybr="218.00" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="45" keyframe="0" outside="0" occluded="0" xtl="456.10" ytl="102.13" xbr="534.83" ybr="211.26" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="46" keyframe="0" outside="0" occluded="0" xtl="457.03" ytl="97.88" xbr="535.76" ybr="204.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="47" keyframe="0" outside="0" occluded="0" xtl="457.96" ytl="93.62" xbr="536.69" ybr="197.78" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="48" keyframe="0" outside="0" occluded="0" xtl="458.89" ytl="89.37" xbr="537.62" ybr="191.05" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="49" keyframe="0" outside="0" occluded="0" xtl="459.82" ytl="85.11" xbr="538.55" ybr="184.31" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="50" keyframe="0" outside="0" occluded="0" xtl="460.75" ytl="80.85" xbr="539.48" ybr="177.57" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="51" keyframe="0" outside="0" occluded="0" xtl="461.68" ytl="76.60" xbr="540.41" ybr="170.83" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="52" keyframe="0" outside="0" occluded="0" xtl="462.61" ytl="72.34" xbr="541.34" ybr="164.09" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="53" keyframe="0" outside="0" occluded="0" xtl="463.54" ytl="68.09" xbr="542.27" ybr="157.35" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="54" keyframe="0" outside="0" occluded="0" xtl="464.47" ytl="63.83" xbr="543.20" ybr="150.61" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="55" keyframe="0" outside="0" occluded="0" xtl="465.40" ytl="59.58" xbr="544.13" ybr="143.87" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="56" keyframe="0" outside="0" occluded="0" xtl="466.33" ytl="55.32" xbr="545.06" ybr="137.13" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="57" keyframe="0" outside="0" occluded="0" xtl="467.26" ytl="51.07" xbr="545.99" ybr="130.39" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="58" keyframe="0" outside="0" occluded="0" xtl="468.19" ytl="46.81" xbr="546.92" ybr="123.65" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="59" keyframe="0" outside="0" occluded="0" xtl="469.12" ytl="42.56" xbr="547.85" ybr="116.91" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="60" keyframe="0" outside="0" occluded="0" xtl="470.04" ytl="38.30" xbr="548.77" ybr="110.17" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="61" keyframe="0" outside="0" occluded="0" xtl="470.97" ytl="34.04" xbr="549.70" ybr="103.43" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="62" keyframe="0" outside="0" occluded="0" xtl="471.90" ytl="29.79" xbr="550.63" ybr="96.70" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="63" keyframe="0" outside="0" occluded="0" xtl="472.83" ytl="25.53" xbr="551.56" ybr="89.96" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="64" keyframe="0" outside="0" occluded="0" xtl="473.76" ytl="21.28" xbr="552.49" ybr="83.22" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="65" keyframe="0" outside="0" occluded="0" xtl="474.69" ytl="17.02" xbr="553.42" ybr="76.48" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="66" keyframe="0" outside="0" occluded="0" xtl="475.62" ytl="12.77" xbr="554.35" ybr="69.74" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="67" keyframe="0" outside="0" occluded="0" xtl="476.55" ytl="8.51" xbr="555.28" ybr="63.00" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="68" keyframe="0" outside="0" occluded="0" xtl="477.48" ytl="4.26" xbr="556.21" ybr="56.26" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="69" keyframe="1" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="70" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="71" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="72" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="73" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="74" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="75" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="76" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="77" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="78" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="79" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="80" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="81" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="82" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="83" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="84" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="85" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="86" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="87" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="88" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="89" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="90" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="91" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="92" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="93" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="94" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="95" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="96" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="97" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="98" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="99" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="100" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="101" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="102" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="103" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="104" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="105" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="106" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="107" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="108" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="109" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="110" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="111" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="112" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="113" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="114" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="115" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="116" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="117" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="118" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="119" keyframe="0" outside="0" occluded="0" xtl="478.41" ytl="0.00" xbr="557.14" ybr="49.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+  </track>
+  <track id="4" label="enemy" source="file">
+    <box frame="19" keyframe="1" outside="0" occluded="0" xtl="386.90" ytl="255.91" xbr="448.70" ybr="416.24" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="20" keyframe="0" outside="0" occluded="0" xtl="386.70" ytl="250.79" xbr="448.50" ybr="410.98" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="21" keyframe="0" outside="0" occluded="0" xtl="386.50" ytl="245.67" xbr="448.30" ybr="405.73" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="22" keyframe="0" outside="0" occluded="0" xtl="386.29" ytl="240.56" xbr="448.09" ybr="400.47" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="23" keyframe="0" outside="0" occluded="0" xtl="386.09" ytl="235.44" xbr="447.89" ybr="395.21" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="24" keyframe="0" outside="0" occluded="0" xtl="385.89" ytl="230.32" xbr="447.69" ybr="389.96" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="25" keyframe="0" outside="0" occluded="0" xtl="385.69" ytl="225.20" xbr="447.49" ybr="384.70" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="26" keyframe="0" outside="0" occluded="0" xtl="385.48" ytl="220.08" xbr="447.28" ybr="379.44" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="27" keyframe="0" outside="0" occluded="0" xtl="385.28" ytl="214.96" xbr="447.08" ybr="374.19" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="28" keyframe="0" outside="0" occluded="0" xtl="385.08" ytl="209.85" xbr="446.88" ybr="368.93" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="29" keyframe="0" outside="0" occluded="0" xtl="384.88" ytl="204.73" xbr="446.68" ybr="363.67" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="30" keyframe="0" outside="0" occluded="0" xtl="384.68" ytl="199.61" xbr="446.48" ybr="358.42" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="31" keyframe="0" outside="0" occluded="0" xtl="384.47" ytl="194.49" xbr="446.27" ybr="353.16" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="32" keyframe="0" outside="0" occluded="0" xtl="384.27" ytl="189.37" xbr="446.07" ybr="347.90" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="33" keyframe="0" outside="0" occluded="0" xtl="384.07" ytl="184.26" xbr="445.87" ybr="342.65" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="34" keyframe="0" outside="0" occluded="0" xtl="383.87" ytl="179.14" xbr="445.67" ybr="337.39" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="35" keyframe="0" outside="0" occluded="0" xtl="383.66" ytl="174.02" xbr="445.46" ybr="332.13" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="36" keyframe="0" outside="0" occluded="0" xtl="383.46" ytl="168.90" xbr="445.26" ybr="326.88" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="37" keyframe="0" outside="0" occluded="0" xtl="383.26" ytl="163.78" xbr="445.06" ybr="321.62" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="38" keyframe="0" outside="0" occluded="0" xtl="383.06" ytl="158.66" xbr="444.86" ybr="316.36" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="39" keyframe="0" outside="0" occluded="0" xtl="382.86" ytl="153.55" xbr="444.66" ybr="311.11" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="40" keyframe="0" outside="0" occluded="0" xtl="382.65" ytl="148.43" xbr="444.45" ybr="305.85" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="41" keyframe="0" outside="0" occluded="0" xtl="382.45" ytl="143.31" xbr="444.25" ybr="300.59" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="42" keyframe="0" outside="0" occluded="0" xtl="382.25" ytl="138.19" xbr="444.05" ybr="295.34" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="43" keyframe="0" outside="0" occluded="0" xtl="382.05" ytl="133.07" xbr="443.85" ybr="290.08" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="44" keyframe="0" outside="0" occluded="0" xtl="381.85" ytl="127.95" xbr="443.64" ybr="284.82" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="45" keyframe="0" outside="0" occluded="0" xtl="381.64" ytl="122.84" xbr="443.44" ybr="279.57" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="46" keyframe="0" outside="0" occluded="0" xtl="381.44" ytl="117.72" xbr="443.24" ybr="274.31" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="47" keyframe="0" outside="0" occluded="0" xtl="381.24" ytl="112.60" xbr="443.04" ybr="269.06" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="48" keyframe="0" outside="0" occluded="0" xtl="381.04" ytl="107.48" xbr="442.84" ybr="263.80" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="49" keyframe="0" outside="0" occluded="0" xtl="380.83" ytl="102.36" xbr="442.63" ybr="258.54" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="50" keyframe="0" outside="0" occluded="0" xtl="380.63" ytl="97.25" xbr="442.43" ybr="253.29" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="51" keyframe="0" outside="0" occluded="0" xtl="380.43" ytl="92.13" xbr="442.23" ybr="248.03" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="52" keyframe="0" outside="0" occluded="0" xtl="380.23" ytl="87.01" xbr="442.03" ybr="242.77" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="53" keyframe="0" outside="0" occluded="0" xtl="380.03" ytl="81.89" xbr="441.83" ybr="237.52" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="54" keyframe="0" outside="0" occluded="0" xtl="379.82" ytl="76.77" xbr="441.62" ybr="232.26" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="55" keyframe="0" outside="0" occluded="0" xtl="379.62" ytl="71.65" xbr="441.42" ybr="227.00" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="56" keyframe="0" outside="0" occluded="0" xtl="379.42" ytl="66.54" xbr="441.22" ybr="221.75" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="57" keyframe="0" outside="0" occluded="0" xtl="379.22" ytl="61.42" xbr="441.02" ybr="216.49" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="58" keyframe="0" outside="0" occluded="0" xtl="379.01" ytl="56.30" xbr="440.81" ybr="211.23" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="59" keyframe="0" outside="0" occluded="0" xtl="378.81" ytl="51.18" xbr="440.61" ybr="205.98" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="60" keyframe="0" outside="0" occluded="0" xtl="378.61" ytl="46.06" xbr="440.41" ybr="200.72" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="61" keyframe="0" outside="0" occluded="0" xtl="378.41" ytl="40.95" xbr="440.21" ybr="195.46" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="62" keyframe="0" outside="0" occluded="0" xtl="378.21" ytl="35.83" xbr="440.01" ybr="190.21" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="63" keyframe="0" outside="0" occluded="0" xtl="378.00" ytl="30.71" xbr="439.80" ybr="184.95" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="64" keyframe="0" outside="0" occluded="0" xtl="377.80" ytl="25.59" xbr="439.60" ybr="179.69" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="65" keyframe="0" outside="0" occluded="0" xtl="377.60" ytl="20.47" xbr="439.40" ybr="174.44" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="66" keyframe="0" outside="0" occluded="0" xtl="377.40" ytl="15.35" xbr="439.20" ybr="169.18" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="67" keyframe="0" outside="0" occluded="0" xtl="377.19" ytl="10.24" xbr="438.99" ybr="163.92" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="68" keyframe="0" outside="0" occluded="0" xtl="376.99" ytl="5.12" xbr="438.79" ybr="158.67" z_order="0">
+      <attribute name="state">uncertain</attribute>
+      <attribute name="confidence">medium</attribute>
+    </box>
+    <box frame="69" keyframe="1" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="70" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="71" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="72" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="73" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="74" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="75" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="76" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="77" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="78" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="79" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="80" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="81" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="82" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="83" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="84" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="85" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="86" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="87" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="88" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="89" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="90" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="91" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="92" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="93" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="94" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="95" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="96" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="97" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="98" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="99" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="100" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="101" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="102" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="103" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="104" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="105" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="106" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="107" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="108" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="109" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="110" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="111" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="112" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="113" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="114" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="115" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="116" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="117" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="118" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="119" keyframe="0" outside="0" occluded="0" xtl="376.79" ytl="0.00" xbr="438.59" ybr="153.41" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+  </track>
+  <track id="5" label="enemy" source="file">
+    <box frame="19" keyframe="1" outside="0" occluded="0" xtl="71.58" ytl="229.28" xbr="135.60" ybr="482.00" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="20" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="229.93" xbr="136.20" ybr="480.98" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="21" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="230.58" xbr="136.80" ybr="479.95" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="22" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="231.23" xbr="137.40" ybr="478.93" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="23" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="231.87" xbr="138.00" ybr="477.90" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="24" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="232.52" xbr="138.60" ybr="476.88" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="25" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="233.17" xbr="139.20" ybr="475.86" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="26" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="233.82" xbr="139.80" ybr="474.83" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="27" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="234.47" xbr="140.40" ybr="473.81" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="28" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="235.12" xbr="141.00" ybr="472.78" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="29" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="235.76" xbr="141.60" ybr="471.76" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="30" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="236.41" xbr="142.20" ybr="470.74" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="31" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="237.06" xbr="142.80" ybr="469.71" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="32" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="237.71" xbr="143.40" ybr="468.69" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="33" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="238.36" xbr="144.00" ybr="467.66" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="34" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="239.01" xbr="144.60" ybr="466.64" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="35" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="239.65" xbr="145.20" ybr="465.62" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="36" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="240.30" xbr="145.80" ybr="464.59" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="37" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="240.95" xbr="146.40" ybr="463.57" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="38" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="241.60" xbr="147.00" ybr="462.54" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="39" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="242.25" xbr="147.60" ybr="461.52" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="40" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="242.90" xbr="148.20" ybr="460.50" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="41" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="243.54" xbr="148.80" ybr="459.47" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="42" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="244.19" xbr="149.40" ybr="458.45" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="43" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="244.84" xbr="150.00" ybr="457.42" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="44" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="245.49" xbr="150.60" ybr="456.40" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="45" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="246.14" xbr="151.20" ybr="455.38" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="46" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="246.79" xbr="151.80" ybr="454.35" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="47" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="247.44" xbr="152.40" ybr="453.33" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="48" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="248.08" xbr="153.00" ybr="452.30" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="49" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="248.73" xbr="153.60" ybr="451.28" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="50" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="249.38" xbr="154.20" ybr="450.26" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="51" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="250.03" xbr="154.80" ybr="449.23" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="52" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="250.68" xbr="155.40" ybr="448.21" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="53" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="251.33" xbr="156.00" ybr="447.18" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="54" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="251.97" xbr="156.60" ybr="446.16" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="55" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="252.62" xbr="157.20" ybr="445.14" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="56" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="253.27" xbr="157.80" ybr="444.11" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="57" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="253.92" xbr="158.40" ybr="443.09" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="58" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="254.57" xbr="159.00" ybr="442.06" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="59" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="255.22" xbr="159.60" ybr="441.04" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="60" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="255.86" xbr="160.20" ybr="440.02" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="61" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="256.51" xbr="160.80" ybr="438.99" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="62" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="257.16" xbr="161.40" ybr="437.97" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="63" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="257.81" xbr="162.00" ybr="436.94" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="64" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="258.46" xbr="162.60" ybr="435.92" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="65" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="259.11" xbr="163.20" ybr="434.90" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="66" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="259.75" xbr="163.80" ybr="433.87" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="67" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="260.40" xbr="164.40" ybr="432.85" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="68" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.05" xbr="165.00" ybr="431.82" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="69" keyframe="1" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="70" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="71" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="72" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="73" keyframe="1" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="74" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="75" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="76" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="77" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="78" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="79" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="80" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="81" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="82" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="83" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="84" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="85" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="86" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="87" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="88" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="89" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="90" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="91" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="92" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="93" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="94" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="95" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="96" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="97" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="98" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="99" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="100" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="101" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="102" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="103" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="104" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="105" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="106" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="107" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="108" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="109" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="110" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="111" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="112" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="113" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="114" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="115" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="116" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="117" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="118" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+    <box frame="119" keyframe="0" outside="0" occluded="0" xtl="71.58" ytl="261.70" xbr="165.60" ybr="430.80" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">alive</attribute>
+    </box>
+  </track>
+  <track id="6" label="enemy" source="file">
+    <box frame="69" keyframe="1" outside="0" occluded="0" xtl="403.30" ytl="276.04" xbr="469.50" ybr="393.44" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="70" keyframe="0" outside="0" occluded="0" xtl="395.88" ytl="276.04" xbr="469.50" ybr="393.44" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="71" keyframe="0" outside="0" occluded="0" xtl="388.45" ytl="276.04" xbr="469.50" ybr="393.44" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="72" keyframe="0" outside="0" occluded="0" xtl="381.03" ytl="276.04" xbr="469.50" ybr="393.44" z_order="0">
+      <attribute name="confidence">medium</attribute>
+      <attribute name="state">uncertain</attribute>
+    </box>
+    <box frame="73" keyframe="1" outside="0" occluded="0" xtl="373.60" ytl="276.04" xbr="469.50" ybr="393.44" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="74" keyframe="0" outside="0" occluded="0" xtl="375.90" ytl="280.55" xbr="472.95" ybr="394.32" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="75" keyframe="0" outside="0" occluded="0" xtl="378.20" ytl="285.07" xbr="476.41" ybr="395.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="76" keyframe="0" outside="0" occluded="0" xtl="380.50" ytl="289.58" xbr="479.86" ybr="396.09" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="77" keyframe="0" outside="0" occluded="0" xtl="382.80" ytl="294.09" xbr="483.31" ybr="396.97" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="78" keyframe="0" outside="0" occluded="0" xtl="385.10" ytl="298.61" xbr="486.76" ybr="397.85" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="79" keyframe="0" outside="0" occluded="0" xtl="387.40" ytl="303.12" xbr="490.22" ybr="398.73" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="80" keyframe="0" outside="0" occluded="0" xtl="389.70" ytl="307.64" xbr="493.67" ybr="399.61" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="81" keyframe="0" outside="0" occluded="0" xtl="392.00" ytl="312.15" xbr="497.12" ybr="400.50" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="82" keyframe="0" outside="0" occluded="0" xtl="394.30" ytl="316.66" xbr="500.57" ybr="401.38" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="83" keyframe="0" outside="0" occluded="0" xtl="396.60" ytl="321.18" xbr="504.03" ybr="402.26" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="84" keyframe="0" outside="0" occluded="0" xtl="398.90" ytl="325.69" xbr="507.48" ybr="403.14" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="85" keyframe="0" outside="0" occluded="0" xtl="401.20" ytl="330.20" xbr="510.93" ybr="404.03" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="86" keyframe="0" outside="0" occluded="0" xtl="403.50" ytl="334.72" xbr="514.38" ybr="404.91" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="87" keyframe="0" outside="0" occluded="0" xtl="405.80" ytl="339.23" xbr="517.84" ybr="405.79" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="88" keyframe="0" outside="0" occluded="0" xtl="408.10" ytl="343.75" xbr="521.29" ybr="406.67" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="89" keyframe="0" outside="0" occluded="0" xtl="410.40" ytl="348.26" xbr="524.74" ybr="407.55" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="90" keyframe="0" outside="0" occluded="0" xtl="412.70" ytl="352.77" xbr="528.19" ybr="408.44" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="91" keyframe="0" outside="0" occluded="0" xtl="415.00" ytl="357.29" xbr="531.65" ybr="409.32" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="92" keyframe="1" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="93" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="94" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="95" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="96" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="97" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="98" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="99" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="100" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="101" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="102" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="103" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="104" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="105" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="106" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="107" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="108" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="109" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="110" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="111" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="112" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="113" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="114" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="115" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="116" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="117" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="118" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+    <box frame="119" keyframe="0" outside="0" occluded="0" xtl="417.30" ytl="361.80" xbr="535.10" ybr="410.20" z_order="0">
+      <attribute name="confidence">high</attribute>
+      <attribute name="state">dead</attribute>
+    </box>
+  </track>
+  <track id="7" label="enemy" source="file">
+    <box frame="91" keyframe="1" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="92" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="93" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="94" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="95" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="96" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="97" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="98" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="99" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="100" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="101" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="102" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="103" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="104" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="105" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="106" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="107" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="108" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="109" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="110" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="111" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="112" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="113" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="114" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="115" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="116" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="117" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="118" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+    <box frame="119" keyframe="0" outside="0" occluded="0" xtl="154.90" ytl="260.77" xbr="242.28" ybr="422.10" z_order="0">
+      <attribute name="state">alive</attribute>
+      <attribute name="confidence">high</attribute>
+    </box>
+  </track>
+</annotations>
