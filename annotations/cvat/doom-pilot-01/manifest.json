@@ -1,0 +1,12 @@
+{
+  "status": "draft, pending annotation quality review",
+  "annotator": "Stephen Shore",
+  "tool": "CVAT 2.78.0",
+  "frames": 120,
+  "fps": 24,
+  "tracks": 8,
+  "exported_shape_records": 740,
+  "explicit_keyframes": 17,
+  "note": "Shape records include interpolated positions, not 740 independent manual edits.",
+  "video_sha256": "b2b695f0739c65f8ed8c5f99d642eb79f5da02f5dac589955db6b57cc4e22b07"
+}

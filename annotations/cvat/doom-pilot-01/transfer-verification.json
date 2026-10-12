@@ -1,0 +1,14 @@
+{
+  "task_id": 2,
+  "job_id": 2,
+  "frame_range": [
+    0,
+    119
+  ],
+  "track_count": 8,
+  "shape_records": 740,
+  "explicit_keyframes_preserved_exactly": 17,
+  "attributes_and_visibility_flags_preserved": true,
+  "max_interpolated_coordinate_difference_pixels": 0.01,
+  "explanation": "CVAT recomputes intermediate positions from retained keyframes; export rounding can differ by 0.01 pixels. Original backup preserved. Annotation quality still requires human review."
+}

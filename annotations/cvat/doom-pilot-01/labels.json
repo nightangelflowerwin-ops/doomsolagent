@@ -1,0 +1,43 @@
+[
+  {
+    "name": "enemy",
+    "color": "#ff6b6b",
+    "type": "rectangle",
+    "attributes": [
+      {
+        "name": "confidence",
+        "mutable": true,
+        "input_type": "select",
+        "default_value": "medium",
+        "values": [
+          "high",
+          "medium",
+          "low"
+        ]
+      },
+      {
+        "name": "state",
+        "mutable": true,
+        "input_type": "select",
+        "default_value": "uncertain",
+        "values": [
+          "alive",
+          "dead",
+          "uncertain"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "blood effect",
+    "color": "#a116ff",
+    "type": "points",
+    "attributes": []
+  },
+  {
+    "name": "player damage",
+    "color": "#60f1a9",
+    "type": "ellipse",
+    "attributes": []
+  }
+]
