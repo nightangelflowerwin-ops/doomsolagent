@@ -2,6 +2,10 @@
 
 This file is the public record of ongoing work. Each meaningful coding, data, training, or evaluation session should add one short entry with evidence and the next question.
 
+## 2026-10-11 Overnight training watchdog
+
+Built and deployed a local Windows watchdog to keep training awake overnight and resume an exited trainer from the latest complete compatible checkpoint. Published the [source and purpose](training/overnight-watchdog.md). It checks every minute, avoids duplicate trainers, validates checkpoint presence and corpus identity, and spaces restart attempts five minutes apart. Task Scheduler registration was denied; deployment uses an independent background process and current user sign-in startup instead. The Windows sleep request succeeded, checkpoint fallback and corpus mismatch checks passed, and the existing trainer kept advancing. This does not establish improved gameplay or protection against power loss.
+
 ## 2026-10-11 Training continuity inspection
 
 The owner reported a computer shutdown. The existing local trainer was still active and advanced from 213 updates and 852 examples to 214 updates and 856 examples during inspection. Validated the saved checkpoint at update 200 and cursor 800 against the unchanged corpus audit, optimizer and random state, and vision/language adapter metadata. Kept the advancing process running. Added [recovery instructions](training/recovery.md) describing the saved sequence, replay after interruption and fallback to earlier complete checkpoints before a fresh run. Training and gameplay validation remain unfinished.

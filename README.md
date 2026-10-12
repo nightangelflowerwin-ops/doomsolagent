@@ -28,6 +28,8 @@ That workflow connects directly to the work I want to do professionally: careful
 - [Reusable training dataset](datasets/README.md): 159,890 verified examples, referenced gameplay images, preserved validation splits, provenance, and a local CPU vision/language adapter trainer. Full training is running; gameplay improvement remains unverified.
 - [Nightangel training progress](training/README.md): meaningful progress recorded under the owner account, with complete repeated verification recorded in GitHub Actions.
 
+- [Nightangel overnight training watchdog](training/overnight-watchdog.md): built October 11, 2026 to keep local training awake, detect an exited trainer, and resume from a compatible checkpoint.
+
 ## Verified experiment snapshot
 
 The latest retained `doom_policy_v4` training report records:
