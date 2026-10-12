@@ -1,4 +1,4 @@
-# Tactical oracle ten-minute run — 2026-09-16
+# Tactical oracle ten-minute run - 2026-09-16
 
 ## Purpose
 

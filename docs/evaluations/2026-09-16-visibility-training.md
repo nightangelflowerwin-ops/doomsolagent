@@ -1,4 +1,4 @@
-# Authoritative enemy-visibility training — 2026-09-16
+# Authoritative enemy-visibility training - 2026-09-16
 
 ## Teacher correction
 
@@ -44,7 +44,7 @@ The balanced imitation checkpoint is the only candidate that improved both kills
 - Attack decisions: 0
 - All other decisions: 0
 
-This candidate is **not promoted**. Its higher reported kills cannot demonstrate learned combat because it never selected attack. Enemy infighting or other scenario mechanics can raise outcome counters while the agent merely moves. Future combat admission must require actual attack decisions, hits attributable to the player, and enemy-conditioned changes under shuffled-frame controls—not kills or reward alone.
+This candidate is **not promoted**. Its higher reported kills cannot demonstrate learned combat because it never selected attack. Enemy infighting or other scenario mechanics can raise outcome counters while the agent merely moves. Future combat admission must require actual attack decisions, hits attributable to the player, and enemy-conditioned changes under shuffled-frame controls-not kills or reward alone.
 
 Local artifacts:
 

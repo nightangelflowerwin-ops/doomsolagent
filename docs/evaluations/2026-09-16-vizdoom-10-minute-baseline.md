@@ -1,4 +1,4 @@
-# ViZDoom ten-minute baseline — 2026-09-16
+# ViZDoom ten-minute baseline - 2026-09-16
 
 ## Configuration
 
