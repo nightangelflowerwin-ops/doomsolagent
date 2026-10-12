@@ -1,5 +1,5 @@
 "Compat level tested","IWAD","PWAD","PWAD url","Demo","Demo URL","Player","Reason","Bug URL","Bug ref"
-"ultdoom","doom.wad",,,"DEMO4",,,"Desyncs with most ports — the correct ending has the marine killed by the imp standing below him and doing a twisting dive into the acid",,
+"ultdoom","doom.wad",,,"DEMO4",,,"Desyncs with most ports - the correct ending has the marine killed by the imp standing below him and doing a twisting dive into the acid",,
 "finaldoom","plutonia.wad",,,"DEMO1",,,"Barrel stuck in ceiling in second courtyard causes desync with Boom/MBF","mbf-bugs.html","Compatibility bug in T_MovePlane"
 "ultdoom","doom.wad",,,"n4m1-035.lmp","COMPETN/doom/nmare/n4m1-035.zip","Drew DeVore","telefrag p_map.c overlapping globals bug","mbf-bugs.html","Overlapping uses of global variables in p_map.c"
 "finaldoom","plutonia.wad",,,"pl27-051.lmp","COMPETN/plutonia/speed/pl27-051.zip","Andre Budko","final doom teleport height emulation","mbf-bugs.html","Final Doom teleport dome desyncs"
