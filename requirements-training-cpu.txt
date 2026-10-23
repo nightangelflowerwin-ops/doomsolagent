@@ -2,4 +2,4 @@ torch==2.14.1
 transformers==5.17.0
 peft==0.21.2
 accelerate==1.15.0
-Pillow==12.3.0
+Pillow==13.0.0
